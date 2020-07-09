@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.LoginEmpresa">
+
+    
+        <StackLayout BackgroundColor="Orange">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="serviicon.png" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100"/>
+                <Entry x:Name="nombredeusuario" Grid.Row="1" Placeholder="EMAIL EMPRESA" TextColor="Gray"/>
+                <Entry x:Name="contrasena" Grid.Row="2" Placeholder="RIF" TextColor="Gray" IsPassword="True"/>
+                <Button Grid.Row="4" Text="INGRESAR" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="OrangeRed" TextColor="White" CornerRadius="20" Margin="5" Clicked="Login_Clicked"/>
+                <Button Grid.Row="5" Text="REGISTRARSE" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="OrangeRed" TextColor="White" CornerRadius="20" Margin="5" Clicked="Registrarse_Clicked"/>
+            </Grid>
+        </StackLayout>
+   
+
+</ContentPage>

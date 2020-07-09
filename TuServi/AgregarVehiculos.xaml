@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.AgregarVehiculos">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Orange">
+            <ScrollView>
+                <Grid Margin="10,5,10,5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="60"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label  Text="AGREGAR VEHICULO" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="0" Grid.Column="0"/>
+                    <Entry  x:Name="Marca" Placeholder="MARCA" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="1" Grid.Column="0"/>
+                    <Entry  x:Name="Modelo" Placeholder="MODELO" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="2" Grid.Column="0"/>
+                    <Entry  x:Name="Año" Placeholder="AÑO" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="3" Grid.Column="0" Keyboard="Numeric"/>
+                    <Picker x:Name="Aceite" Title="TIPO DE ACEITE" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="4" Grid.Column="0">
+                        <Picker.Items>
+                            <x:String>Aceite de motor sintético</x:String>
+                            <x:String>Aceite de motor semi-sintético</x:String>
+                            <x:String>Aceite de motor de alto kilometraje</x:String>
+                            <x:String>Aceite de motor convencional</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="Kilometros" Placeholder="KILOMETRAJE ULTIMO SERVICIO" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="5" Grid.Column="0"/>
+                    <DatePicker  x:Name="Fecha" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="6" Grid.Column="0"/>
+                    <Entry  x:Name="Kilometraje" Placeholder="KILOMETRAJE ACTUAL" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="7" Grid.Column="0"/>
+                    <Button Grid.Row="8" Text="AGREGAR" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="OrangeRed" TextColor="White" CornerRadius="20" Margin="5" Clicked="Registro_Clicked"/>
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "p5l23AwjLceIO795R67xOrLMMANa+SFPNCSxRiMJCnr3uQ2KKXUbSa9HTvI37bPgLI8HzwbdwSAuRNuivlWfwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oscar\\source\\repos\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oscar\\.nuget\\packages\\acr.userdialogs\\7.1.0.442\\acr.userdialogs.7.1.0.442.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\btprogresshud\\1.3.1\\btprogresshud.1.3.1.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+  ],
+  "logs": []
+}

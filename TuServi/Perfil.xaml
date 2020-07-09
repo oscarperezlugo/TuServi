@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.Perfil">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary"
+                     Text="Icon Item"
+                     Priority="0"
+                     IconImageSource="icon.png"
+                      />
+        <ToolbarItem Order="Primary"
+                     Text="Text Item"
+                     Priority="1"
+                      />
+        <ToolbarItem Order="Secondary"
+                     Text="Secondary Text Item"
+                     Priority="2"
+                      />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Orange">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label  Text="INFORMACION PERSONAL" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="0" Grid.Column="0"/>
+                <Label  x:Name="Nombre"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="1" Grid.Column="0"/>
+                <Label  x:Name="Correo"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="2" Grid.Column="0"/>
+                <Label  x:Name="Telefono"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="3" Grid.Column="0"/>
+                <Label  x:Name="Celular"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="4" Grid.Column="0"/>
+                <Label  Text="DIRECCION" HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="5" Grid.Column="0"/>
+                <Label  x:Name="Calle"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="6" Grid.Column="0"/>
+                <Label  x:Name="Hab"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="7" Grid.Column="0"/>
+                <Label  x:Name="Ciudad"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="8" Grid.Column="0"/>
+                <Label  x:Name="Provincia"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="9" Grid.Column="0"/>
+                <Label  x:Name="Zip"  HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="10" Grid.Column="0"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

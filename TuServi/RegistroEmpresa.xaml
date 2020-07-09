@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.RegistroEmpresa">
+    <ContentPage x:Name="paso1">
+        <StackLayout BackgroundColor="Orange">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="serviicon.png" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="50" />
+                <Entry x:Name="nombre" Grid.Row="1" Placeholder="NOMBRE EMPRESA" TextColor="Gray"/>
+                <Entry x:Name="email" Grid.Row="2" Placeholder="EMAIL EMPRESA" TextColor="Gray"/>
+                <Entry x:Name="rif" Grid.Row="3" Placeholder="RIF" TextColor="Gray" IsPassword="True"/>
+                <Entry x:Name="conficontrasena" Grid.Row="4" Placeholder="CONFIRMAR RIF" TextColor="Gray" IsPassword="True"/>
+                <Button BackgroundColor="OrangeRed" Grid.Row="5" Text="SIGUIENTE" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="20" Clicked="Siguiente_Clicked" Margin="5"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage x:Name="paso2">
+        <StackLayout BackgroundColor="Orange">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Image Source="serviicon.png" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="50" />
+                <Entry x:Name="direccion" Grid.Row="1" Placeholder="DIRECCION" TextColor="Gray"/>
+                <Entry x:Name="ciudad" Grid.Row="2" Placeholder="CIUDAD" TextColor="Gray"/>
+                <Entry x:Name="estado" Grid.Row="3" Placeholder="ESTADO" TextColor="Gray" />
+                <Entry x:Name="telefono" Grid.Row="4" Placeholder="TELEFONO" TextColor="Gray" />
+                <Button BackgroundColor="OrangeRed" Grid.Row="5" Text="REGISTRAR EMPRESA" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="20" Margin="5"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>

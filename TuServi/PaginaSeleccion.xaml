@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.PaginaSeleccion">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Orange">
+            <Image Source="serviicon.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="5,5,5,5" />
+            <Button Text="USUARIO" BackgroundColor="OrangeRed" TextColor="White" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Margin="5,5,5,5" Clicked="UsuarioClicked" CornerRadius="20"/>
+            <Button Text="EMPRESA" BackgroundColor="OrangeRed" TextColor="White" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Margin="5,5,5,5" Clicked="EmpresaClicked" CornerRadius="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
