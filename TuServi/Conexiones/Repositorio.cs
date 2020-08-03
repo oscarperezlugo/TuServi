@@ -117,15 +117,15 @@ namespace TuServi.Conexiones
             }
         }
 
-        public async Task<Usuario> getUsuario()
+        public Usuario getUsuario(string iD)
         {
-            var guids = await SecureStorage.GetAsync("guid");
-            string guid = guids.ToString();
+            //var guids = await SecureStorage.GetAsync("guid");
+            //string guid = guids.ToString();
 
             try
             {
                 Usuario usuario;
-                var url = "https://servi.somee.com/api/usuarios?guid=" + guid.Trim();
+                var url = "https://servi.somee.com/api/usuarios?guid=" + iD.Trim();
                 using (var Client = new HttpClient())
                 {
                     var JSON = Client.GetStringAsync(url);

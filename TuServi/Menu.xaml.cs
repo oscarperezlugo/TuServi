@@ -15,8 +15,8 @@ namespace TuServi
         public Menu(string nombreUsuario)
         {
             InitializeComponent();
-            MyMenu();
             username.Text = nombreUsuario;
+            MyMenu();
             lablClicked();
             Navigation.PopAsync(false);
         }

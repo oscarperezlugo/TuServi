@@ -50,7 +50,7 @@ namespace TuServi
                     Repositorio repositorio = new Repositorio();
                     Usuario usuarior = repositorio.postUsuario(usuario).Result;
 
-                    Usuario user = repositorio.getUsuario().Result;
+                   // Usuario user = repositorio.getUsuario(usuarior.guid.ToString());
 
                     Dialogs.ShowLoading("Hola " + nombre.Text + " Bienvenido a Servi");
                     await Task.Delay(2000);
@@ -59,7 +59,7 @@ namespace TuServi
                     {
                         await SecureStorage.SetAsync("id", usuarior.id_usuario.ToString());
                         await SecureStorage.SetAsync("guid", usuarior.guid.ToString());
-                        Menu myHomePage = new Menu(user.nombre + " " + user.apellido);
+                        Menu myHomePage = new Menu(usuarior.nombre + " " + usuarior.apellido);
                         NavigationPage.SetHasNavigationBar(myHomePage, false);
                         await Navigation.PushModalAsync(myHomePage);
                     }

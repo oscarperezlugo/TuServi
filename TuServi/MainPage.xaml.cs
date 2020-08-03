@@ -24,8 +24,6 @@ namespace TuServi
             InitializeComponent();
             lablClicked();
 
-            Navigation.PopAsync(true);
-
         }
         private async void Registrarse_Clicked(object sender, EventArgs e)
         {
@@ -48,9 +46,9 @@ namespace TuServi
                     Repositorio repositorio = new Repositorio();
                     Usuario userlogin = repositorio.postLogin(usuariologin).Result;
 
-                    Usuario user = repositorio.getUsuario().Result;
+                    Usuario user = repositorio.getUsuario(userlogin.iD);
 
-                    Dialogs.ShowLoading("Bienvenido "+nombredeusuario.Text+""); ;
+                    Dialogs.ShowLoading("Bienvenido "+user.nombre+""); ;
                     await Task.Delay(2000);
                     Dialogs.HideLoading();
                     try
