@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oscar\\source\\repos\\TuServi\\TuServi\\TuServi.csproj": {}
+    "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oscar\\source\\repos\\TuServi\\TuServi\\TuServi.csproj": {
+    "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oscar\\source\\repos\\TuServi\\TuServi\\TuServi.csproj",
+        "projectUniqueName": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
         "projectName": "TuServi",
-        "projectPath": "C:\\Users\\oscar\\source\\repos\\TuServi\\TuServi\\TuServi.csproj",
-        "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oscar\\source\\repos\\TuServi\\TuServi\\obj\\",
+        "projectPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
+        "packagesPath": "C:\\Users\\Anyami\\.nuget\\packages\\",
+        "outputPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anyami\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.3, )"
+            },
             "Xam.Plugin.Media": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -63,6 +67,14 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.2, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
@@ -79,7 +91,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

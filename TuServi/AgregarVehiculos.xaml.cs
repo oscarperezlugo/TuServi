@@ -1,5 +1,7 @@
 ﻿using Acr.UserDialogs;
+using Rg.Plugins.Popup.Services;
 using System;
+using System.Globalization;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +11,7 @@ using TuServi.Datos;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Collections;
 
 namespace TuServi
 {
@@ -19,24 +22,32 @@ namespace TuServi
         public AgregarVehiculos()
         {
             InitializeComponent();
+            lablClicked();
+
+            ListPicker();
+            listAnno();
+
+
+
         }
         private async void Registro_Clicked(object sender, EventArgs e)
         {
-            if (Marca.Text != null && Modelo.Text != null && Año.Text != null && Kilometros.Text != null)
+            if (Marca.SelectedItem.ToString() != null && Modelo.SelectedItem.ToString() != null && Kilometros.Text != null)
             {
                 Vehiculo vehiculo = new Vehiculo();
-                vehiculo.anho = Int16.Parse(Año.Text);
+                //vehiculo.anho = Int16.Parse(Año.SelectedItem.ToString());
                 vehiculo.fecha_servicio = Fecha.Date;
                 vehiculo.km_ultimo_servicio = Int32.Parse(Kilometraje.Text);
-                vehiculo.marca = Marca.Text;
-                vehiculo.modelo = Modelo.Text;
+                vehiculo.marca = Marca.SelectedItem.ToString();
+                vehiculo.modelo = Modelo.SelectedItem.ToString();
                 vehiculo.tipo_aceite = Aceite.SelectedItem.ToString();
+                //vehiculo.niv = Int32.Parse(NIV.Text);
                 try
                 {
 
                     Repositorio repositorio = new Repositorio();
                     Vehiculo vehiculor = repositorio.postVehiculo(vehiculo).Result;
-                    Dialogs.ShowLoading("Tu " + Modelo.Text + " ya fue agregada a tu garage");
+                    Dialogs.ShowLoading("Tu " + Modelo.SelectedItem.ToString() + " ya fue agregado a tu garage");
                     await Task.Delay(2000);
                     Dialogs.HideLoading();
                     try
@@ -67,5 +78,64 @@ namespace TuServi
                 Dialogs.HideLoading();
             }
         }
+
+        //Items de marca y modelo
+        void ListPicker()
+        {
+            List<string> marcaList = new List<string>();
+            marcaList.Add("Ford");
+            marcaList.Add("Toyota");
+            marcaList.Add("Fiat");
+            marcaList.Add("Kia");
+            marcaList.Add("Mazda");
+            marcaList.Add("Renault");
+            marcaList.Add("Chevrolet");
+
+            Marca.ItemsSource = marcaList;
+
+            List<string> modeloList = new List<string>();
+            modeloList.Add("Mustang GT");
+            modeloList.Add("Palio");
+            modeloList.Add("Mazda 3");
+            modeloList.Add("Corolla");
+            modeloList.Add("Chevrolet");
+            modeloList.Add("Corsa");
+
+            Modelo.ItemsSource = modeloList;
+        }
+
+        //Para llenar el picker de año
+        void listAnno()
+        {
+            var minYear = System.DateTime.Now.Year - 40;
+            var maxYear = System.DateTime.Now.Year + 1;
+
+            List<int> annoList = new List<int>();
+
+            for(int i = minYear; i< maxYear; i++)
+            {
+                minYear = minYear + 1;
+                annoList.Add(minYear);
+            }
+
+            Año.ItemsSource = annoList;
+        }
+
+        //Popup NIV
+        void lablClicked()
+        {
+            lblClick.GestureRecognizers.Add(new TapGestureRecognizer()
+            {
+                Command = new Command(() =>
+                {
+                    var page = new NivPopup();
+                    PopupNavigation.Instance.PushAsync(page);
+
+                })
+            });
+
+
+        }
+
     }
 }

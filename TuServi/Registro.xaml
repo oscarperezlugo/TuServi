@@ -6,51 +6,193 @@
              mc:Ignorable="d"
              x:Class="TuServi.Registro">
     <ContentPage x:Name="paso1">
-        <StackLayout BackgroundColor="Orange">
-            <Grid>
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Order="Primary"
+                     Text="Icon Item"
+                     Priority="0"
+                     IconImageSource="icon.png"
+                      />
+            <ToolbarItem Order="Primary"
+                     Text="Text Item"
+                     Priority="1"
+                      />
+            <ToolbarItem Order="Secondary"
+                     Text="Secondary Text Item"
+                     Priority="2"
+                      />
+        </ContentPage.ToolbarItems>
+        <StackLayout BackgroundColor="White">
+
+            <Grid RowSpacing="3">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="6*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="30"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Source="serviicon.png" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="50" />
-                <Entry x:Name="nombre" Grid.Row="1" Placeholder="NOMBRE" TextColor="Gray"/>
-                <Entry x:Name="email" Grid.Row="2" Placeholder="EMAIL" TextColor="Gray"/>
-                <Entry x:Name="contrasena" Grid.Row="3" Placeholder="CONTRASEÑA" TextColor="Gray" IsPassword="True"/>
-                <Entry x:Name="conficontrasena" Grid.Row="4" Placeholder="CONFIRMAR CONTRASEÑA" TextColor="Gray" IsPassword="True"/>
-                <Button BackgroundColor="OrangeRed" Grid.Row="5" Text="SIGUIENTE" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="20" Clicked="Siguiente_Clicked" Margin="5"/>
+
+                <Frame Grid.Row="0" BackgroundColor="#f46414">
+                    <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="18" Text="Registro" FontSize="20" TextColor="White"/>
+                </Frame>
+
+                <Frame Grid.Row="1" BackgroundColor="Transparent"/>
+
+                <Label Grid.Row="2" TranslationX="25" Text="Regístrate con" FontSize="18"/>
+
+                <Button Grid.Row="3" Margin="0" Scale="0.85" Padding="0" Text="Facebook" TextColor="white"
+                        BackgroundColor="#3c5c9c" CornerRadius="10"></Button>
+
+                <Button Grid.Row="4" Margin="0" Scale="0.85" Padding="0" Text="Google" TextColor="white"
+                        BackgroundColor="#d3483a" CornerRadius="10"></Button>
+
+                <Label Grid.Row="5" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="O" FontSize="18"/>
+            </Grid>
+
+            <Grid RowSpacing="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Frame CornerRadius="10" Grid.Row="0" VerticalOptions="Center"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="nombre" StyleClass="Inputs" Placeholder="Nombre" TextColor="#6e6e68" Margin="5"/>
+                </Frame>
+
+                <Frame CornerRadius="10" Grid.Row="1" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="apellido" StyleClass="Inputs" Placeholder="Apellido" TextColor="#6e6e68" Margin="5"/>
+                </Frame>
+
+                <Frame CornerRadius="10" Grid.Row="2" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="email" StyleClass="Inputs" Placeholder="Correo electrónico" TextColor="#6e6e68" Margin="5"/>
+                </Frame>
+
+                <Frame CornerRadius="10" Grid.Row="3" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="confiemail" StyleClass="Inputs" Placeholder="Confirmar correo electrónico" TextColor="#6e6e68" Margin="5"/>
+                </Frame>
+
+                <Frame CornerRadius="10" Grid.Row="4" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="contrasena" StyleClass="Inputs" Placeholder="Contraseña" TextColor="#6e6e68" Margin="5" IsPassword="True"/>
+                </Frame>
+
+                <Frame CornerRadius="10" Grid.Row="5" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="conficontrasena" StyleClass="Inputs" Placeholder="Confirmar contraseña" TextColor="#6e6e68" Margin="5" IsPassword="True"/>
+                </Frame>
+
+                <Button BackgroundColor="#f46414" Grid.Row="6" Text="Siguiente" Scale="0.85" TextColor="White"
+                        HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="10" Clicked="Siguiente_Clicked"/>
+            </Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="128"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Text="Al unirte aceptas los" TranslationX="10" TranslationY="30"/>
+                    <Label Grid.Row="0" Grid.Column="1" x:Name="lblClick" Text="Términos y Condiciones" TranslationX="5"  TranslationY="30" TextColor="Orange"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="de Servi" TranslationY="30"/>
             </Grid>
         </StackLayout>
     </ContentPage>
     <ContentPage x:Name="paso2">
-        <StackLayout BackgroundColor="Orange">
+        <StackLayout BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="6*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+
+                <Frame Grid.Row="0" BackgroundColor="#f46414">
+                    <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="18" Text="Registro" FontSize="20" TextColor="White"/>
+                </Frame>
+
+                <Frame Grid.Row="1" BackgroundColor="Transparent"/>
+
+                <Label Grid.Row="2" TranslationX="25" Text="Ya casi terminamos" FontSize="18"/>
+
+                <Frame CornerRadius="10" Grid.Row="3" VerticalOptions="Center"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="telefono" StyleClass="Inputs" Placeholder="Teléfono" TextColor="#6e6e68" Margin="5"/>
+                </Frame>
+
+                <Label Grid.Row="4" TranslationX="25" Text="Ingrese información de envío " FontSize="18"/>
+
+                <Frame CornerRadius="10" Grid.Row="5" VerticalOptions="Center"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="estado" StyleClass="Inputs" Placeholder="Estado" TextColor="#6e6e68" Margin="5"/>
+                </Frame>
+
+                <Frame CornerRadius="10" Grid.Row="6" VerticalOptions="Center"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Entry x:Name="ciudad" StyleClass="Inputs" Placeholder="Ciudad" TextColor="#6e6e68"/>
+                </Frame>
+
+                <Frame CornerRadius="10" Grid.Row="7" VerticalOptions="StartAndExpand" HeightRequest="100"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                    <Editor x:Name="direccion" StyleClass="Inputs" Placeholder="Dirección" 
+                       TextColor="#6e6e68"  Margin="5"/>
+                </Frame>
+
+                <Label Grid.Row="8" HorizontalTextAlignment="Center" 
+                   Text="Ésta información es solicitada con el único propósito de coordinar los envíos de respuestos que haya solicitado a través de la aplicación."
+                   FontSize="14" Margin="20"/>
+
+            </Grid>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="180"/>
                 </Grid.ColumnDefinitions>
-                
-                <Image Source="serviicon.png" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="50" />
-                <Entry x:Name="direccion" Grid.Row="1" Placeholder="DIRECCION" TextColor="Gray"/>
-                <Entry x:Name="ciudad" Grid.Row="2" Placeholder="CIUDAD" TextColor="Gray"/>
-                <Entry x:Name="estado" Grid.Row="3" Placeholder="ESTADO" TextColor="Gray" />
-                <Entry x:Name="telefono" Grid.Row="4" Placeholder="TELEFONO" TextColor="Gray" />
-                <Button BackgroundColor="OrangeRed" Grid.Row="5" Text="REGISTRARSE" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="20" Margin="5" Clicked="Registro_Clicked"/>
+
+                <Button BackgroundColor="#f46414" Grid.Row="0" Grid.Column="0" Text="Continuar" TextColor="White"
+                        HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="10" 
+                        Margin="3,0,0,0" Clicked="Registro_Clicked"/>
+
+                <Button BackgroundColor="#f46414" Grid.Row="0" Grid.Column="1" Text="Luego" TextColor="White"
+                        HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="10" 
+                        Margin="0,0,10,0" Clicked="Registro_Clicked"/>
+
+            </Grid>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="128"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Al unirte aceptas los" TranslationX="10" TranslationY="30"/>
+                <Label Grid.Row="0" Grid.Column="1" x:Name="lablClick" Text="Términos y Condiciones" TranslationX="5"  TranslationY="30" TextColor="Orange"/>
+                <Label Grid.Row="0" Grid.Column="2" Text="de Servi" TranslationY="30"/>
             </Grid>
         </StackLayout>
     </ContentPage>

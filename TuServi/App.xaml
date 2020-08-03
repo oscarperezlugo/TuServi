@@ -6,6 +6,10 @@
              mc:Ignorable="d"
              x:Class="TuServi.App">
     <Application.Resources>
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="#dbdbdb"/>
+            <Setter Property="BarTextColor" Value="#f46414"/>
+        </Style>
         <ResourceDictionary>
             <OnPlatform x:TypeArguments="x:String" 
                 x:Key="FontAwesomeBrands">

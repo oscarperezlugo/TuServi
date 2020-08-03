@@ -4,28 +4,45 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuServi.MainPage">
+             x:Class="TuServi.MainPage"
+             BackgroundImageSource="bOrange.png">
 
-    
-        <StackLayout BackgroundColor="Orange" >
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="6*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Image Source="serviicon.png" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100"/>
-                <Entry x:Name="nombredeusuario" Grid.Row="1" Placeholder="EMAIL" TextColor="Gray"/>
-                <Entry x:Name="contrasena" Grid.Row="2" Placeholder="PASSWORD" TextColor="Gray" IsPassword="True"/>
-                <Button Grid.Row="4" Text="INGRESAR" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="OrangeRed" TextColor="White" CornerRadius="20" Margin="5" Clicked="Login_Clicked"/>
-                <Button Grid.Row="5" Text="REGISTRARSE" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="OrangeRed" TextColor="White" CornerRadius="20" Margin="5" Clicked="Registrarse_Clicked"/>
-            </Grid>
-        </StackLayout>
+    <ContentPage.Resources>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Image Margin="25" Source="serviicon.png" TranslationY="20" Grid.Row="0" VerticalOptions="StartAndExpand" HorizontalOptions="Center" Scale="0.85" HeightRequest="100"/>
+        
+        <Frame CornerRadius="10" TranslationY="10" Margin="5" Scale="0.85" Padding="0" StyleClass="Entry">
+                <Entry x:Name="nombredeusuario" StyleClass="Inputs" Placeholder="Correo" TextColor="#6e6e68" Margin="5"/>
+        </Frame>
+        
+        <Frame CornerRadius="10" TranslationY="-10" Margin="5" Scale="0.85" Padding="0" StyleClass="Entry">
+            <Entry x:Name="contrasena" StyleClass="Inputs" Placeholder="Contraseña" TextColor="#6e6e68" Margin="5" IsPassword="True"/>
+        </Frame>
+
+        <Label x:Name="labelClick" Text="Olvidé mi contraseña" TranslationX="40" TranslationY="-20" 
+               TextColor="White" TextDecorations="Underline"/>
+
+        <Button Text="Iniciar Sesión" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" 
+                BackgroundColor="#f0f0f0" TextColor="#6e6e68" Scale="0.85" TranslationY="-20" CornerRadius="10" FontSize="20" 
+                Margin="5" Clicked="Login_Clicked" x:Name="Button"/>
+        
+        <Label Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center" TranslationY="-30" 
+               Text="O continúa con" FontSize="16" TextColor="White"/>
+
+        <Button Margin="0" Scale="0.85" Padding="0" Text="Facebook" TextColor="white" TranslationY="-20"
+                        BackgroundColor="#3c5c9c" CornerRadius="10"></Button>
+
+        <Button Margin="0" Scale="0.85" Padding="0" Text="Google" TextColor="white" TranslationY="-20"
+                        BackgroundColor="#d3483a" CornerRadius="10"></Button>
+
+        <Label Text="¿No tienes una cuenta?" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="20" 
+               FontFamily="arial" TranslationY="20"/>
+        
+        <Button Text="Registrarse" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="#f0f0f0" 
+                TextColor="#6e6e68" Scale="0.85" TranslationY="10" CornerRadius="10" FontSize="20" Margin="5" Clicked="Registrarse_Clicked"/>
+    </StackLayout>
    
 
 </ContentPage>

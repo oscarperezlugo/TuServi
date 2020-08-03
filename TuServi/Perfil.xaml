@@ -5,23 +5,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuServi.Perfil">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Order="Primary"
-                     Text="Icon Item"
-                     Priority="0"
-                     IconImageSource="icon.png"
-                      />
-        <ToolbarItem Order="Primary"
-                     Text="Text Item"
-                     Priority="1"
-                      />
-        <ToolbarItem Order="Secondary"
-                     Text="Secondary Text Item"
-                     Priority="2"
-                      />
-    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Orange">
+        <StackLayout BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40"/>

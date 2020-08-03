@@ -1,9 +1,13 @@
 Acr.UserDialogs
 AndHUD
+FFImageLoading.Forms.Platform
+FFImageLoading.Platform
+FFImageLoading.Transformations
 FormsViewGroup
 Plugin.CurrentActivity
 Plugin.Media
 Plugin.Permissions
+Rg.Plugins.Popup
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
 Xamarin.Android.Arch.Lifecycle.Common

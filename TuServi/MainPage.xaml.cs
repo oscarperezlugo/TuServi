@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Windows.Input;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,9 @@ namespace TuServi
         public MainPage()
         {
             InitializeComponent();
+            lablClicked();
+
+            Navigation.PopAsync(true);
 
         }
         private async void Registrarse_Clicked(object sender, EventArgs e)
@@ -43,6 +47,9 @@ namespace TuServi
 
                     Repositorio repositorio = new Repositorio();
                     Usuario userlogin = repositorio.postLogin(usuariologin).Result;
+
+                    Usuario user = repositorio.getUsuario().Result;
+
                     Dialogs.ShowLoading("Bienvenido "+nombredeusuario.Text+""); ;
                     await Task.Delay(2000);
                     Dialogs.HideLoading();
@@ -50,7 +57,7 @@ namespace TuServi
                     {                        
                         await SecureStorage.SetAsync("id", userlogin.iDu.ToString());
                         await SecureStorage.SetAsync("guid", userlogin.iD.ToString());                        
-                        Garage myHomePage = new Garage();
+                        Menu myHomePage = new Menu(user.nombre + " " + user.apellido);
                         NavigationPage.SetHasNavigationBar(myHomePage, false);
                         await Navigation.PushModalAsync(myHomePage);
                     }
@@ -70,5 +77,27 @@ namespace TuServi
             }
             
         }
+
+        void lablClicked()
+        {
+            labelClick.GestureRecognizers.Add(new TapGestureRecognizer()
+            {
+                Command = new Command(() =>
+                {
+                    Garage myHomePage = new Garage();
+                    NavigationPage.SetHasNavigationBar(myHomePage, false);
+                    Navigation.PushModalAsync(myHomePage);
+                })
+            });
+        }
+
+            private async void Password_Clicked(object sender, EventArgs e)
+        {
+            //Aqui va el push hacia la pagina de recuperar contraseña
+            Garage myHomePage = new Garage();
+            NavigationPage.SetHasNavigationBar(myHomePage, false);
+            await Navigation.PushModalAsync(myHomePage);
+        }
+
     }
 }

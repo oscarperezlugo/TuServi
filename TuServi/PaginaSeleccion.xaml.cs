@@ -15,6 +15,16 @@ namespace TuServi
         public PaginaSeleccion()
         {
             InitializeComponent();
+            Navigation.PopAsync(false);
+
+            Device.StartTimer(TimeSpan.FromSeconds(4), () =>
+            {
+                MainPage myHomePage = new MainPage();
+                NavigationPage.SetHasNavigationBar(myHomePage, false);
+                Navigation.PushModalAsync(myHomePage);
+
+                return false; // True = Repeat again, False = Stop the timer
+            });
         }
         public void EmpresaClicked(object sender, EventArgs e)
         {            
@@ -24,9 +34,8 @@ namespace TuServi
         }
         public void UsuarioClicked(object sender, EventArgs e)
         {
-            MainPage myHomePage = new MainPage();
-            NavigationPage.SetHasNavigationBar(myHomePage, false);
-            Navigation.PushModalAsync(myHomePage);
+            
+
         }
     }
 }

@@ -20,3 +20,27 @@ C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\Garage.xaml
 C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\Perfil.xaml.g.cs
 C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csproj.CoreCompileInputs.cache
 C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.dll
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\ref\TuServi.dll
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.pdb
+E:\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.deps.json
+E:\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.dll
+E:\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\ref\TuServi.dll
+E:\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.pdb
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\AgregarVehiculos.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Foto.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Garage.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\LoginEmpresa.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\PaginaSeleccion.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Perfil.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Registro.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\RegistroEmpresa.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfoInputs.cache
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfo.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csproj.CoreCompileInputs.cache
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\NivPopup.xaml.g.cs
+E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csprojAssemblyReference.cache

@@ -162,4 +162,40 @@
       <Name>TuServi</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\garage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\servig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\serviicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\serviifb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\shopping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tuservi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bOrange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\confi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\addcar.jpg" />
+  </ItemGroup>
 </Project>

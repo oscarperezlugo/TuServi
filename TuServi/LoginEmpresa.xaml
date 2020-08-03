@@ -22,8 +22,8 @@
                 <Image Source="serviicon.png" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100"/>
                 <Entry x:Name="nombredeusuario" Grid.Row="1" Placeholder="EMAIL EMPRESA" TextColor="Gray"/>
                 <Entry x:Name="contrasena" Grid.Row="2" Placeholder="RIF" TextColor="Gray" IsPassword="True"/>
-                <Button Grid.Row="4" Text="INGRESAR" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="OrangeRed" TextColor="White" CornerRadius="20" Margin="5" Clicked="Login_Clicked"/>
-                <Button Grid.Row="5" Text="REGISTRARSE" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="OrangeRed" TextColor="White" CornerRadius="20" Margin="5" Clicked="Registrarse_Clicked"/>
+                <Button Grid.Row="4" Text="INGRESAR" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" CornerRadius="20" Margin="5" Clicked="Login_Clicked"/>
+                <Button Grid.Row="5" Text="REGISTRARSE" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" CornerRadius="20" Margin="5" Clicked="Registrarse_Clicked"/>
             </Grid>
         </StackLayout>
    

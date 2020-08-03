@@ -5,38 +5,61 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuServi.Garage">
-    
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+                 IconImageSource="confi.png"
+                 Order="Primary"
+                 Priority="0" Clicked="Configurar_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <NavigationPage.TitleView>
+        <Label Text="Garage" HorizontalTextAlignment="Center" FontSize="18"
+               TranslationX="-20" TextColor="Black"/>
+    </NavigationPage.TitleView>
+
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Orange">
+        <StackLayout BackgroundColor="White">
             <ScrollView>
                 <Grid Margin="10,5,10,5">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="60"/>
-                        <RowDefinition Height="1200"/>
+                        <RowDefinition Height="530"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="80"/>
                     </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Button Text="AGREGAR VEHICULO" Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="OrangeRed" TextColor="White" CornerRadius="20" Margin="5" Clicked="Agregar_Clicked" />
-                    <ListView x:Name="ListaVehiculos" BackgroundColor="Orange" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" SeparatorColor="White">
+
+
+                    <Image x:Name="image" Source="addcar.jpg" Grid.Row="0" HeightRequest="100" WidthRequest="100" VerticalOptions="Start" TranslationY="50"/>
+                    <ListView x:Name="ListaVehiculos" BackgroundColor="White" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0" SeparatorColor="Gray">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
                                     <Grid Margin="5,0,0,0">
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="20"/>
+                                            <RowDefinition Height="15"/>
+                                            <RowDefinition Height="20"/>
                                         </Grid.RowDefinitions>
                                         <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="3*"/>
+                                            <ColumnDefinition Width="*"/>
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
-                                        <Label Text="{Binding marca}"  Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center"   TextColor="DarkBlue"  />
-                                        <Label Text="{Binding modelo}"  Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center"   TextColor="DarkBlue"  />
+                                        <StackLayout Grid.Row="0" Orientation="Horizontal">
+                                            <Label Text="{Binding marca, StringFormat='{0}'}"/>
+                                            <Label Text="{Binding modelo, StringFormat=' -  {0}'}"/>
+                                        </StackLayout>
+                                        <Label Text="{Binding km_ultimo_servicio, StringFormat='{0} km' }" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" FontSize="10"/>
+
                                     </Grid>
                                 </ViewCell>
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
+                    <Label Grid.Row="1" Text="Añadir Vehículo" HorizontalOptions="Center" FontSize="15" Grid.Column="0"/>
+                    <ImageButton Grid.Row="2" Source="add.png" HorizontalOptions="Center" VerticalOptions="Center" 
+                                     CornerRadius="100" Clicked="Agregar_Clicked"/>
+
                 </Grid>
             </ScrollView>
         </StackLayout>

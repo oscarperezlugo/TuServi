@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             mc:Ignorable="d"
+             x:Class="TuServi.Menu">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" Padding="0,50,0,20" BackgroundColor="#e6e8eb">
+            <StackLayout BackgroundColor="#e6e8eb">
+                <Label x:Name="username" FontSize="18" HorizontalOptions="CenterAndExpand" 
+                       VerticalOptions="CenterAndExpand" TextColor="Black"/>
+                <ff:CachedImage Margin="0,5,0,10" HeightRequest="100" Source="https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_960_720.png" WidthRequest="100">
+                    <ff:CachedImage.Transformations>
+                        <ffTransformations:RoundedTransformation BorderHexColor="#f46414" BorderSize="30" Radius="240" />
+                    </ff:CachedImage.Transformations>
+                </ff:CachedImage>
+                <ListView BackgroundColor="#e6e8eb" x:Name="ListMenu" ItemSelected="ListMenu_ItemSelected" SeparatorVisibility="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Margin="20,0,0,0">
+                                    <Image Source="{Binding icon}">
+                                        <Image.HeightRequest>
+                                            <OnPlatform x:TypeArguments="x:Double">
+                                                <On Platform="iOS">60</On>
+                                                <On Platform="Android,Windows">50</On>
+                                            </OnPlatform>
+                                        </Image.HeightRequest>
+                                    </Image>
+                                    <Label Text="{Binding MenuTitle}" FontSize="16" TranslationY="12"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height='40'/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Cerrar Sesión" x:Name="labelClicked" Grid.Row="0" FontSize="16"
+                           HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                    <Image Grid.Row="2" Source="servig.png" HeightRequest="40" HorizontalOptions="CenterAndExpand" 
+                           VerticalOptions="CenterAndExpand"/>
+                </Grid>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+ </MasterDetailPage>

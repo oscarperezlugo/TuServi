@@ -9,6 +9,7 @@ using Android.OS;
 using Plugin.CurrentActivity;
 using Plugin.Permissions;
 using Acr.UserDialogs;
+using FFImageLoading.Forms.Platform;
 
 namespace TuServi.Droid
 {
@@ -22,7 +23,9 @@ namespace TuServi.Droid
             
             UserDialogs.Init(this);
 
+            Rg.Plugins.Popup.Popup.Init(this, savedInstanceState);
             base.OnCreate(savedInstanceState);
+            CachedImageRenderer.Init(false);
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);

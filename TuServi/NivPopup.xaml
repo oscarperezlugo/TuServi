@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    x:Class="TuServi.NivPopup">
+    <!--You can set an animation in the xaml file or in the csharp code behind-->
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+    <!--You can use any elements here which are extended from Xamarin.Forms.View-->
+    <StackLayout 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        Padding="10, 10, 10, 10">
+        <Frame BackgroundColor="White" CornerRadius="20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+                
+                <Label Grid.Row="0" Text="¿Qué es y dónde está el NIV?" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+
+                <Label Grid.Row="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                   Text="Es una secuencia única de identificación compuesta por 17 dígitos que nos permite identificar las piezas que requiere tu auto según el fabricante."
+                   FontSize="14" Padding="0" Margin="0"/>
+                       
+                <Label Grid.Row="4" HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                   Text="Se encuentra en el carnet de circulación o en el auto donde se señala a continuación:"
+                   FontSize="14" Padding="0" Margin="0"/>
+
+                <Image  Grid.Row="5" Source="https://cdn.pixabay.com/photo/2013/07/13/11/48/bmw-158703_960_720.png" HeightRequest="100"
+                       WidthRequest="80"/>
+            </Grid>
+            
+        </Frame>
+    </StackLayout>
+</pages:PopupPage>

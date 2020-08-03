@@ -19,6 +19,7 @@ namespace TuServi
         public Registro()
         {
             InitializeComponent();
+            lablClicked();
         }
         public void Siguiente_Clicked(object sender, EventArgs e)
         {
@@ -48,14 +49,17 @@ namespace TuServi
 
                     Repositorio repositorio = new Repositorio();
                     Usuario usuarior = repositorio.postUsuario(usuario).Result;
-                    Dialogs.ShowLoading("Hola " + nombre.Text + " bienvenido a Servi");
+
+                    Usuario user = repositorio.getUsuario().Result;
+
+                    Dialogs.ShowLoading("Hola " + nombre.Text + " Bienvenido a Servi");
                     await Task.Delay(2000);
                     Dialogs.HideLoading();
                     try
                     {
                         await SecureStorage.SetAsync("id", usuarior.id_usuario.ToString());
                         await SecureStorage.SetAsync("guid", usuarior.guid.ToString());
-                        Garage myHomePage = new Garage();
+                        Menu myHomePage = new Menu(user.nombre + " " + user.apellido);
                         NavigationPage.SetHasNavigationBar(myHomePage, false);
                         await Navigation.PushModalAsync(myHomePage);
                     }
@@ -82,9 +86,22 @@ namespace TuServi
             }
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        void lablClicked()
         {
-
+            lblClick.GestureRecognizers.Add(new TapGestureRecognizer()
+            {
+                Command = new Command(() =>
+                {
+                    DisplayAlert("Task", "Now it's working ", "OK");
+                })
+            });
+            lablClick.GestureRecognizers.Add(new TapGestureRecognizer()
+            {
+                Command = new Command(() =>
+                {
+                    DisplayAlert("Registro exito", "Bienvenido/a a Servi ", "OK");
+                })
+            });
         }
     }
 }

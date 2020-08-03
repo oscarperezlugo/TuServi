@@ -116,5 +116,27 @@ namespace TuServi.Conexiones
                 return result;
             }
         }
+
+        public async Task<Usuario> getUsuario()
+        {
+            var guids = await SecureStorage.GetAsync("guid");
+            string guid = guids.ToString();
+
+            try
+            {
+                Usuario usuario;
+                var url = "https://servi.somee.com/api/usuarios?guid=" + guid.Trim();
+                using (var Client = new HttpClient())
+                {
+                    var JSON = Client.GetStringAsync(url);
+                    usuario = JsonConvert.DeserializeObject<Usuario>(JSON.Result);
+                }
+                return usuario;
+            }
+             catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
