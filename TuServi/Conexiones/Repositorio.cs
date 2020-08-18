@@ -72,6 +72,9 @@ namespace TuServi.Conexiones
             vehiculor.marca = vehiculo.marca;
             vehiculor.modelo = vehiculo.modelo;
             vehiculor.tipo_aceite = vehiculo.tipo_aceite;
+            //vehiculor.niv = vehiculo.niv;
+            //vehiculor.sae = vehiculo.sae;
+            //vehiculor.km_actual = vehiculo.km_actual;
             vehiculor.id_usuario = Int16.Parse(id);
             vehiculor.guid = new Guid(guid);
             var jsonObj = JsonConvert.SerializeObject(vehiculor);

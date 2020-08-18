@@ -31,32 +31,32 @@
                         <RowDefinition Height="50"/>
                         <RowDefinition Height="50"/>
                     </Grid.RowDefinitions>
-
+                <!--     Marca      -->
                     <Frame CornerRadius="10" Grid.Row="1" VerticalOptions="Center"
                     Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
                         <Picker x:Name="Marca" Title="Seleccione la marca de su vehículo ..." 
                             TextColor="#6e6e68" Margin="5"/>
                     </Frame>
-
+                <!--     Modelo      -->
                     <Frame CornerRadius="10" Grid.Row="2" VerticalOptions="Center"
-                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                        Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
                         <Picker x:Name="Modelo" Title="Seleccione el modelo de su vehículo ..." 
                             TextColor="#6e6e68" Margin="5"/>
                     </Frame>
-
+                <!--     Año        -->
                     <Frame CornerRadius="10" Grid.Row="3" VerticalOptions="Center"
-                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                        Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
                         <Picker x:Name="Año" Title="Seleccione el año de su vehículo ..." 
                             TextColor="#6e6e68" Margin="5"/>
                     </Frame>
 
-
                     <Label Grid.Row="4" HorizontalTextAlignment="Center" 
-                   Text="Los siguientes valores son opcionales (Podrás ingresarlos después si no lo haces ahora)."
-                   FontSize="14" Margin="20"/>
+                       Text="Los siguientes valores son opcionales (Podrás ingresarlos después si no lo haces ahora)."
+                       FontSize="14" Margin="20"/>
 
+                    <!--     Tipo de Aceite      -->
                     <Frame CornerRadius="10" Grid.Row="5" VerticalOptions="Center"
-                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                        Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
                         <Picker x:Name="Aceite" Title="Seleccione el tipo de aceite ..." 
                             TextColor="#6e6e68" Margin="5">
                             <Picker.Items>
@@ -68,7 +68,8 @@
                         </Picker>
                     </Frame>
 
-                    <Frame CornerRadius="10" Grid.Row="6" VerticalOptions="Center"
+               <!--        Grado SAE ##W##      -->
+                   <!-- <Frame CornerRadius="10" Grid.Row="6" VerticalOptions="Center"
                     Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
                         <Picker x:Name="SAE" Title="Seleccione el grado SAE (Ej.:20W50) ..." 
                             TextColor="#6e6e68" Margin="5">
@@ -87,30 +88,33 @@
                                 <x:String>75w90</x:String>
                             </Picker.Items>
                         </Picker>
-                    </Frame>
-
+                    </Frame>-->
+                    
+                <!--Kilometraje ultimo servicio -->
                     <Frame CornerRadius="10" Grid.Row="7" VerticalOptions="Center"
-                    Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
-                        <Entry x:Name="Kilometros" Placeholder="Ingrese el kilometraje del último servicio" TextColor="#6e6e68" Margin="5"/>
+                        Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
+                        <Entry x:Name="KilometrajeUlt" Placeholder="Ingrese el kilometraje del último servicio" TextColor="#6e6e68" Margin="5"/>
                     </Frame>
-
+                    
+                <!--   Fecha de ultimo servicio   -->
                     <Frame CornerRadius="10" Grid.Row="8" VerticalOptions="Center"
-                    Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
+                        Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
                         <StackLayout>
                             <Label Text="Ingrese la fecha del último servicio" FontSize="12" TranslationX="5"/>
                             <DatePicker x:Name="Fecha"  TranslationY="-15"/>
                         </StackLayout>
                     </Frame>
 
-                    <Frame CornerRadius="10" Grid.Row="9" VerticalOptions="Center"
-                    Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
+                <!--   Kilometraje Actual    -->
+                    <!--<Frame CornerRadius="10" Grid.Row="9" VerticalOptions="Center"
+                            Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
                         <Entry x:Name="Kilometraje" Placeholder="Ingrese el kilometraje actual de su vehículo" TextColor="#6e6e68" Margin="5"/>
-                    </Frame>
-
-                    <Frame CornerRadius="10" Grid.Row="9" VerticalOptions="Center"
-                    Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
+                    </Frame>-->
+                <!--   NIV    -->
+                 <!--<Frame CornerRadius="10" Grid.Row="9" VerticalOptions="Center"
+                        Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
                         <Entry x:Name="NIV" Placeholder="Ingrese el NIV de su vehículo" TextColor="#6e6e68" Margin="5"/>
-                    </Frame>
+                    </Frame>-->
 
                     <Label Grid.Row="10" x:Name="lblClick" Text="¿Qué es el NIV?" TextColor="#f46414"
                        HorizontalOptions="EndAndExpand" TranslationX="-40" FontSize="18"/>
