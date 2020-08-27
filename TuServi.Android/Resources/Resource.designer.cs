@@ -5559,6 +5559,47 @@ namespace TuServi.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingEnd = global::TuServi.Droid.Resource.Styleable.View_paddingEnd;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingStart = global::TuServi.Droid.Resource.Styleable.View_paddingStart;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_theme = global::TuServi.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::TuServi.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::TuServi.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::TuServi.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::TuServi.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::TuServi.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::TuServi.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::TuServi.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::TuServi.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::TuServi.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::TuServi.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::TuServi.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::TuServi.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::TuServi.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::TuServi.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::TuServi.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::TuServi.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::TuServi.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::TuServi.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::TuServi.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::TuServi.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::TuServi.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::TuServi.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::TuServi.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::TuServi.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::TuServi.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::TuServi.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::TuServi.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::TuServi.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::TuServi.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::TuServi.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::TuServi.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::TuServi.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::TuServi.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::TuServi.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_determinate_linear = global::TuServi.Droid.Resource.Drawable.sfprogressbar_determinate_linear;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_circular = global::TuServi.Droid.Resource.Drawable.sfprogressbar_indeterminate_circular;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_linear = global::TuServi.Droid.Resource.Drawable.sfprogressbar_indeterminate_linear;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_progress = global::TuServi.Droid.Resource.Id.sfprogressbar_progress;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_secondary_progress = global::TuServi.Droid.Resource.Id.sfprogressbar_secondary_progress;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_track = global::TuServi.Droid.Resource.Id.sfprogressbar_track;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.String.library_name = global::TuServi.Droid.Resource.String.library_name;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::TuServi.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::TuServi.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::TuServi.Droid.Resource.Attribute.font;
@@ -13849,151 +13890,286 @@ namespace TuServi.Droid
 			public const int addcar = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int avd_hide_password = 2130837590;
-			
-			// aapt resource value: 0x7f020081
-			public const int avd_hide_password_1 = 2130837633;
-			
-			// aapt resource value: 0x7f020082
-			public const int avd_hide_password_2 = 2130837634;
-			
-			// aapt resource value: 0x7f020083
-			public const int avd_hide_password_3 = 2130837635;
+			public const int Avatar1 = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int avd_show_password = 2130837591;
-			
-			// aapt resource value: 0x7f020084
-			public const int avd_show_password_1 = 2130837636;
-			
-			// aapt resource value: 0x7f020085
-			public const int avd_show_password_2 = 2130837637;
-			
-			// aapt resource value: 0x7f020086
-			public const int avd_show_password_3 = 2130837638;
+			public const int Avatar10 = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int bOrange = 2130837592;
+			public const int Avatar11 = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int confi = 2130837593;
+			public const int Avatar12 = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int contact = 2130837594;
+			public const int Avatar13 = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_bottom_navigation_item_background = 2130837595;
+			public const int Avatar14 = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int design_fab_background = 2130837596;
+			public const int Avatar15 = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int design_ic_visibility = 2130837597;
+			public const int Avatar16 = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int design_ic_visibility_off = 2130837598;
+			public const int Avatar17 = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int design_password_eye = 2130837599;
+			public const int Avatar18 = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int design_snackbar_background = 2130837600;
+			public const int Avatar19 = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int fondo = 2130837601;
+			public const int Avatar2 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int garage = 2130837602;
+			public const int Avatar20 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_errorstatus = 2130837603;
+			public const int Avatar21 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_mtrl_chip_checked_black = 2130837604;
+			public const int Avatar22 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_mtrl_chip_checked_circle = 2130837605;
+			public const int Avatar23 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_mtrl_chip_close_circle = 2130837606;
+			public const int Avatar24 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_successstatus = 2130837607;
+			public const int Avatar25 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int mtrl_snackbar_background = 2130837608;
+			public const int Avatar26 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int mtrl_tabs_default_indicator = 2130837609;
+			public const int Avatar27 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int navigation_empty_icon = 2130837610;
+			public const int Avatar28 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_action_background = 2130837611;
+			public const int Avatar29 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg = 2130837612;
+			public const int Avatar3 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_low = 2130837613;
+			public const int Avatar30 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int notification_bg_low_normal = 2130837614;
+			public const int Avatar4 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int notification_bg_low_pressed = 2130837615;
+			public const int Avatar5 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int notification_bg_normal = 2130837616;
+			public const int Avatar6 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notification_bg_normal_pressed = 2130837617;
+			public const int Avatar7 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int notification_icon_background = 2130837618;
-			
-			// aapt resource value: 0x7f02007f
-			public const int notification_template_icon_bg = 2130837631;
-			
-			// aapt resource value: 0x7f020080
-			public const int notification_template_icon_low_bg = 2130837632;
+			public const int Avatar8 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int notification_tile_bg = 2130837619;
+			public const int Avatar9 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int notify_panel_notification_icon_bg = 2130837620;
+			public const int avd_hide_password = 2130837620;
+			
+			// aapt resource value: 0x7f0200ae
+			public const int avd_hide_password_1 = 2130837678;
+			
+			// aapt resource value: 0x7f0200af
+			public const int avd_hide_password_2 = 2130837679;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int avd_hide_password_3 = 2130837680;
 			
 			// aapt resource value: 0x7f020075
-			public const int options = 2130837621;
+			public const int avd_show_password = 2130837621;
+			
+			// aapt resource value: 0x7f0200b1
+			public const int avd_show_password_1 = 2130837681;
+			
+			// aapt resource value: 0x7f0200b2
+			public const int avd_show_password_2 = 2130837682;
+			
+			// aapt resource value: 0x7f0200b3
+			public const int avd_show_password_3 = 2130837683;
 			
 			// aapt resource value: 0x7f020076
-			public const int roundedbg = 2130837622;
+			public const int bOrange = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int roundedbgdark = 2130837623;
+			public const int clear_button_icon = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int servig = 2130837624;
+			public const int confi = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int serviicon = 2130837625;
+			public const int contact = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int serviifb = 2130837626;
+			public const int design_bottom_navigation_item_background = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int shopping = 2130837627;
+			public const int design_fab_background = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int tooltip_frame_dark = 2130837628;
+			public const int design_ic_visibility = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int tooltip_frame_light = 2130837629;
+			public const int design_ic_visibility_off = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int tuservi = 2130837630;
+			public const int design_password_eye = 2130837630;
+			
+			// aapt resource value: 0x7f02007f
+			public const int design_snackbar_background = 2130837631;
+			
+			// aapt resource value: 0x7f020080
+			public const int drawer = 2130837632;
+			
+			// aapt resource value: 0x7f020081
+			public const int fondo = 2130837633;
+			
+			// aapt resource value: 0x7f020082
+			public const int fuel = 2130837634;
+			
+			// aapt resource value: 0x7f020083
+			public const int garage = 2130837635;
+			
+			// aapt resource value: 0x7f020084
+			public const int ic_errorstatus = 2130837636;
+			
+			// aapt resource value: 0x7f020085
+			public const int ic_mtrl_chip_checked_black = 2130837637;
+			
+			// aapt resource value: 0x7f020086
+			public const int ic_mtrl_chip_checked_circle = 2130837638;
+			
+			// aapt resource value: 0x7f020087
+			public const int ic_mtrl_chip_close_circle = 2130837639;
+			
+			// aapt resource value: 0x7f020088
+			public const int ic_successstatus = 2130837640;
+			
+			// aapt resource value: 0x7f020089
+			public const int input_layout_drop_down_icon = 2130837641;
+			
+			// aapt resource value: 0x7f02008a
+			public const int inputlayout_togglecollapseicon = 2130837642;
+			
+			// aapt resource value: 0x7f02008b
+			public const int inputlayout_togglevisibleicon = 2130837643;
+			
+			// aapt resource value: 0x7f02008c
+			public const int mtrl_snackbar_background = 2130837644;
+			
+			// aapt resource value: 0x7f02008d
+			public const int mtrl_tabs_default_indicator = 2130837645;
+			
+			// aapt resource value: 0x7f02008e
+			public const int navigation_empty_icon = 2130837646;
+			
+			// aapt resource value: 0x7f02008f
+			public const int notification_action_background = 2130837647;
+			
+			// aapt resource value: 0x7f020090
+			public const int notification_bg = 2130837648;
+			
+			// aapt resource value: 0x7f020091
+			public const int notification_bg_low = 2130837649;
+			
+			// aapt resource value: 0x7f020092
+			public const int notification_bg_low_normal = 2130837650;
+			
+			// aapt resource value: 0x7f020093
+			public const int notification_bg_low_pressed = 2130837651;
+			
+			// aapt resource value: 0x7f020094
+			public const int notification_bg_normal = 2130837652;
+			
+			// aapt resource value: 0x7f020095
+			public const int notification_bg_normal_pressed = 2130837653;
+			
+			// aapt resource value: 0x7f020096
+			public const int notification_icon_background = 2130837654;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int notification_template_icon_bg = 2130837676;
+			
+			// aapt resource value: 0x7f0200ad
+			public const int notification_template_icon_low_bg = 2130837677;
+			
+			// aapt resource value: 0x7f020097
+			public const int notification_tile_bg = 2130837655;
+			
+			// aapt resource value: 0x7f020098
+			public const int notify_panel_notification_icon_bg = 2130837656;
+			
+			// aapt resource value: 0x7f020099
+			public const int oil = 2130837657;
+			
+			// aapt resource value: 0x7f02009a
+			public const int options = 2130837658;
+			
+			// aapt resource value: 0x7f02009b
+			public const int quotes = 2130837659;
+			
+			// aapt resource value: 0x7f02009c
+			public const int recordList = 2130837660;
+			
+			// aapt resource value: 0x7f02009d
+			public const int resume = 2130837661;
+			
+			// aapt resource value: 0x7f02009e
+			public const int roundedbg = 2130837662;
+			
+			// aapt resource value: 0x7f02009f
+			public const int roundedbgdark = 2130837663;
+			
+			// aapt resource value: 0x7f0200a0
+			public const int servig = 2130837664;
+			
+			// aapt resource value: 0x7f0200a1
+			public const int serviicon = 2130837665;
+			
+			// aapt resource value: 0x7f0200a2
+			public const int serviifb = 2130837666;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int sfprogressbar_determinate_linear = 2130837667;
+			
+			// aapt resource value: 0x7f0200a4
+			public const int sfprogressbar_indeterminate_circular = 2130837668;
+			
+			// aapt resource value: 0x7f0200a5
+			public const int sfprogressbar_indeterminate_linear = 2130837669;
+			
+			// aapt resource value: 0x7f0200a6
+			public const int shopping = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int tire = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int tooltip_frame_dark = 2130837672;
+			
+			// aapt resource value: 0x7f0200a9
+			public const int tooltip_frame_light = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int tuservi = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int wind = 2130837675;
 			
 			static Drawable()
 			{
@@ -14469,6 +14645,15 @@ namespace TuServi.Droid
 			
 			// aapt resource value: 0x7f0b004f
 			public const int selected = 2131427407;
+			
+			// aapt resource value: 0x7f0b00d5
+			public const int sfprogressbar_progress = 2131427541;
+			
+			// aapt resource value: 0x7f0b00d4
+			public const int sfprogressbar_secondary_progress = 2131427540;
+			
+			// aapt resource value: 0x7f0b00d3
+			public const int sfprogressbar_track = 2131427539;
 			
 			// aapt resource value: 0x7f0b00cd
 			public const int shellcontent_appbar = 2131427533;

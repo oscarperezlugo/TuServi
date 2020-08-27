@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TuServi.Conexiones;
 using TuServi.Datos;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -43,6 +44,19 @@ namespace TuServi
         {
             await Navigation.PushModalAsync(new NavigationPage(new Perfil()));
         }
-        
+
+        private void Vehiculo_Selected(object sender, ItemTappedEventArgs e)
+        {
+            Vehiculo selected = (Vehiculo)((ListView)sender).SelectedItem;
+            Application.Current.Properties["fecha_ultimo_servicio"] = selected.fecha_servicio;
+            Application.Current.Properties["marca"] = selected.marca;
+            Application.Current.Properties["modelo"] = selected.modelo;
+            Application.Current.Properties["km_ultimo_servicio"] = selected.km_ultimo_servicio.ToString();
+            Application.Current.SavePropertiesAsync();
+
+            Navigation.PushModalAsync(new VehiculoSeleccionado());
+        }
+
     }
+
 }

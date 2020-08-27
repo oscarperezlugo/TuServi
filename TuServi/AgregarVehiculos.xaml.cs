@@ -32,7 +32,7 @@ namespace TuServi
         {
             if (Marca.SelectedItem.ToString() != null && Modelo.SelectedItem.ToString() != null && KilometrajeUlt.Text != null && Año.SelectedItem.ToString() != null)
             {
-                Vehiculo vehiculo = new Vehiculo();
+                Datos.Vehiculo vehiculo = new Datos.Vehiculo();
                 vehiculo.anho = Int16.Parse(Año.SelectedItem.ToString());
                 vehiculo.fecha_servicio = Fecha.Date;
                 vehiculo.km_ultimo_servicio = Int32.Parse(KilometrajeUlt.Text);
@@ -46,7 +46,7 @@ namespace TuServi
                 {
 
                     Repositorio repositorio = new Repositorio();
-                    Vehiculo vehiculor = repositorio.postVehiculo(vehiculo).Result;
+                    Datos.Vehiculo vehiculor = repositorio.postVehiculo(vehiculo).Result;
                     Dialogs.ShowLoading("Tu " + Modelo.SelectedItem.ToString() + " ya fue agregado a tu garage");
                     await Task.Delay(2000);
                     Dialogs.HideLoading();
