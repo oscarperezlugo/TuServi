@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.Historial"
+             Title="Historial de Servicio">
+
+    <NavigationPage.TitleView>
+        <Label Text="Historial de Servicios" HorizontalTextAlignment="Center" FontSize="18"
+               TranslationX="-20" TextColor="Black"/>
+    </NavigationPage.TitleView>
+
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image x:Name="image" BackgroundColor="White" Source="historialvacio.png"
+                           HeightRequest="250" WidthRequest="200" Scale="1" VerticalOptions="Start" TranslationY="-50"/>
+            
+            <!--Button Text="Añadir servicio" BackgroundColor="#f46414" TextColor="White"/-->
+
+            <ListView x:Name="ListaServicios" RowHeight="50" BackgroundColor="White" VerticalOptions="Fill" SeparatorColor="Gray" 
+                      TranslationY="40" Margin="10,0,10,0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="80">
+                            <StackLayout>
+                                <Label Text="{Binding descripcion, StringFormat='Servicio de {0}.'}" FontAttributes="Bold" Margin="5,0,0,0"/>
+                                <Label Text="{Binding tiempo}" HorizontalOptions="Start" FontSize="12" Margin="5,0,0,0"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

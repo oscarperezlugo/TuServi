@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.ServicioSeleccionado">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+                 IconImageSource="shopping.png"
+                 Order="Primary"
+                 Priority="0"/>
+    </ContentPage.ToolbarItems>
+    
+
+    <NavigationPage.TitleView>
+        <Label Text="Vehiculo" HorizontalTextAlignment="Center" FontSize="18" TextColor="Black"/>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid BackgroundColor="LightGray" RowSpacing="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="300"/>
+                </Grid.RowDefinitions>
+                
+                <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="StartAndExpand" 
+                             BackgroundColor="White" WidthRequest="400" Padding="10,0,0,0">
+                    <Image Source="{Binding icon}" HeightRequest="40" HorizontalOptions="Start"/>
+                    <StackLayout HorizontalOptions="StartAndExpand">
+                        <Label Text="{Binding Servicio}" FontSize="16" TranslationY="12"/>
+                        <ProgressBar Progress="{Binding progress}" WidthRequest="200"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Row="1" BackgroundColor="white" Padding="10,10,0,0">
+                    <Label Text="Próximo Servicio" FontSize="20" HorizontalOptions="StartAndExpand"/>
+                    <Label x:Name="FechaProximo"></Label>
+                </StackLayout>
+            <!-- Solicitar cotizacion -->
+                <StackLayout Grid.Row="2" BackgroundColor="White" Padding="10,10,10,0">
+                    <Label Text="Solicita una cotización" FontSize="19" TextColor="Black" HorizontalOptions="StartAndExpand"/>
+                    <!-- Si hay una cotizacion activa sera visible -->
+                    <StackLayout x:Name="CotizacionActiva">
+                        <Label FontSize="14" HorizontalTextAlignment="Start" TextColor="OrangeRed"
+                            Text="Tienes una cotización activa, agrega los productos al carro o rechaza la cotizacion para agregar una nueva."/>
+                    </StackLayout>
+                    <!-- Si no hay cotizacion activa podra solicitar una -->
+                    <StackLayout x:Name="SolicitarCot">
+                        <Label Grid.Row="8" HorizontalTextAlignment="Start" 
+                               Text="Solicita una contización de Servi, acepta y recibe los repuestos que necesites en donde los necesites."
+                               FontSize="14"/>
+                        <Button Text="Solicitar cotización" BackgroundColor="#f46414" TextColor="White" Margin="20"
+                            CornerRadius="10" HeightRequest="35" Clicked="SolicitarCot_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Row="3" BackgroundColor="White" Padding="10,0,10,0">
+                    <Label Text="Desde último cambio" FontSize="20" Margin="0,20,0,0"/>
+                    <ListView x:Name="Lista" BackgroundColor="White" VerticalOptions="Fill" SeparatorColor="Gray">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal">
+                                        <StackLayout>
+                                            <Label Text="{Binding ItemTittle}" FontSize="16" TranslationY="12"/>
+                                            <ProgressBar Progress="{Binding progrest}" WidthRequest="200"/>
+                                        </StackLayout>
+                                        <Label Text="{Binding tiempo}" FontSize="10" TranslationY="25" TextColor="#f46414"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

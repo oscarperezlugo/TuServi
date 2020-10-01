@@ -8,6 +8,8 @@ Plugin.CurrentActivity
 Plugin.Media
 Plugin.Permissions
 Rg.Plugins.Popup
+Syncfusion.Core.XForms.Android
+Syncfusion.SfProgressBar.XForms.Android
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
 Xamarin.Android.Arch.Lifecycle.Common

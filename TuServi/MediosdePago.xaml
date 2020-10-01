@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuServi.MediosdePago">
+
+
+
+    <NavigationPage.TitleView>
+        <Label Text="Totalizar" HorizontalTextAlignment="Center" FontSize="18"
+               TranslationX="-20" TextColor="Black"/>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+
+                <Label Grid.Row="1" TextColor="Black" TranslationX="25 " Text="Medio de pago" FontSize="16"/>
+
+
+                <Button Grid.Row="2" Text="Zelle" BackgroundColor="DarkViolet" Scale="0.85" TextColor="White"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="10"/>
+
+                <Button Grid.Row="3" Text="Pago móvil" BackgroundColor="DarkTurquoise" Scale="0.85" TextColor="White"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="10"/>
+
+                <Button Grid.Row="4" Text="Efectivo" BackgroundColor="DarkGreen" Scale="0.85" TextColor="White"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="10"/>
+
+
+                <Label Grid.Row="6" Text="{Binding totalcompra, StringFormat='Total:  ${0}'}" FontAttributes="Bold"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

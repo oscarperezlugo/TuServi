@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Acr.UserDialogs/7.1.0.442": {
+      "Acr.UserDialogs/7.1.0.454": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Acr.UserDialogs.dll": {}
@@ -54,6 +54,41 @@
         },
         "runtime": {
           "lib/netstandard2.0/Rg.Plugins.Popup.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/18.2.0.55": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.2.0.55": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.55",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/18.2.0.55": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.2.0.55",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfProgressBar.XForms.dll": {}
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -145,20 +180,19 @@
     }
   },
   "libraries": {
-    "Acr.UserDialogs/7.1.0.442": {
-      "sha512": "4z+sp3nTkFZuY75gd4zo2+86S8eaWlHl7KhLs/EAG9TH7Ng9+a4jfOap8v3fq1RXrF3gVae2ycLPcndZptxHZQ==",
+    "Acr.UserDialogs/7.1.0.454": {
+      "sha512": "A7NdvgpX1tE5tDj4gNQgrQOZ2xZF2PidNhuy5ydfM5rJdvN9CqjVxjoKEu3rDiMUs7ek/m+EiVkYVC5DVwfI0A==",
       "type": "package",
-      "path": "acr.userdialogs/7.1.0.442",
+      "path": "acr.userdialogs/7.1.0.454",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "acr.userdialogs.7.1.0.442.nupkg.sha512",
+        "acr.userdialogs.7.1.0.454.nupkg.sha512",
         "acr.userdialogs.nuspec",
         "lib/monoandroid10.0/Acr.UserDialogs.dll",
         "lib/monoandroid10.0/Acr.UserDialogs.pdb",
         "lib/monoandroid10.0/Acr.UserDialogs.xml",
         "lib/monoandroid90/Acr.UserDialogs.dll",
-        "lib/monoandroid90/Acr.UserDialogs.dll.mdb",
         "lib/monoandroid90/Acr.UserDialogs.pdb",
         "lib/monoandroid90/Acr.UserDialogs.xml",
         "lib/netstandard2.0/Acr.UserDialogs.dll",
@@ -169,11 +203,6 @@
         "lib/uap10.0.16299/Acr.UserDialogs.pri",
         "lib/uap10.0.16299/Acr.UserDialogs.xml",
         "lib/uap10.0.16299/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
-        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ActionSheetContentDialog.xaml",
-        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/DatePickerControl.xaml",
-        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/LoginContentDialog.xaml",
-        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ProgressContentDialog.xaml",
-        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/TimePickerControl.xaml",
         "lib/xamarinios10/Acr.UserDialogs.dll",
         "lib/xamarinios10/Acr.UserDialogs.pdb",
         "lib/xamarinios10/Acr.UserDialogs.xml",
@@ -407,6 +436,93 @@
         "readme.txt",
         "rg.plugins.popup.2.0.0.3.nupkg.sha512",
         "rg.plugins.popup.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/18.2.0.55": {
+      "sha512": "uRj2TsBly9Mv35iPsOGiyHnz0z2+jd4WvK+vCdty4jF+G64CglHChdexWXaUkMd9wqkYJfp8BlLthqn4ogiMBg==",
+      "type": "package",
+      "path": "syncfusion.licensing/18.2.0.55",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netcoreapp5.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.18.2.0.55.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/18.2.0.55": {
+      "sha512": "/lU79GxueAxpY9qt5zJ/morklmkuEzsNAz2YZF5jTAw8bmz8gw7wLEf2eB8//8S3EOPxRnprfy5jz20aXDQECg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/18.2.0.55",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ClearButtonViewVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.18.2.0.55.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfProgressBar/18.2.0.55": {
+      "sha512": "OfF4PXxhkPFeg7esUJzE++YVJBVw4gJSv3AVCbjEdvUHUWgW95ILsSSVzGlZw6IOZ7wnW7t2D8s0va0AolVsJg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfprogressbar/18.2.0.55",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfProgressBar.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfProgressBar.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfProgressBar.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfProgressBar.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP/Font Stepprogress icon.ttf",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.xml",
+        "syncfusion.xamarin.sfprogressbar.18.2.0.55.nupkg.sha512",
+        "syncfusion.xamarin.sfprogressbar.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -1005,10 +1121,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Acr.UserDialogs >= 7.1.0.442",
+      "Acr.UserDialogs >= 7.1.0.454",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
       "Rg.Plugins.Popup >= 2.0.0.3",
+      "Syncfusion.Xamarin.SfProgressBar >= 18.2.0.55",
       "Xam.Plugin.Media >= 5.0.1",
       "Xamarin.Essentials >= 1.5.2",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
@@ -1017,23 +1134,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anyami\\.nuget\\packages\\": {},
+    "C:\\Users\\Personal\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
+      "projectUniqueName": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
       "projectName": "TuServi",
-      "projectPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
-      "packagesPath": "C:\\Users\\Anyami\\.nuget\\packages\\",
-      "outputPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\obj\\",
+      "projectPath": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
+      "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+      "outputPath": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Anyami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1060,7 +1177,7 @@
         "dependencies": {
           "Acr.UserDialogs": {
             "target": "Package",
-            "version": "[7.1.0.442, )"
+            "version": "[7.1.0.454, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -1075,6 +1192,10 @@
           "Rg.Plugins.Popup": {
             "target": "Package",
             "version": "[2.0.0.3, )"
+          },
+          "Syncfusion.Xamarin.SfProgressBar": {
+            "target": "Package",
+            "version": "[18.2.0.55, )"
           },
           "Xam.Plugin.Media": {
             "target": "Package",
@@ -1107,7 +1228,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

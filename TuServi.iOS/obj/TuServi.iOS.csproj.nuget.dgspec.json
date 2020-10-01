@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Avila Technology\\Servi\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj": {}
+    "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj": {}
   },
   "projects": {
-    "E:\\Avila Technology\\Servi\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj": {
+    "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Avila Technology\\Servi\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj",
+        "projectUniqueName": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj",
         "projectName": "TuServi.iOS",
-        "projectPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj",
-        "packagesPath": "C:\\Users\\Anyami\\.nuget\\packages\\",
-        "outputPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi.iOS\\obj\\",
+        "projectPath": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi.iOS\\TuServi.iOS.csproj",
+        "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+        "outputPath": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anyami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj": {
-                "projectPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj"
+              "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\TuServi.csproj": {
+                "projectPath": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\TuServi.csproj"
               }
             }
           }
@@ -69,20 +69,20 @@
         }
       }
     },
-    "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj": {
+    "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\TuServi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
+        "projectUniqueName": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
         "projectName": "TuServi",
-        "projectPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
-        "packagesPath": "C:\\Users\\Anyami\\.nuget\\packages\\",
-        "outputPath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\obj\\",
+        "projectPath": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
+        "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+        "outputPath": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anyami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -109,7 +109,7 @@
           "dependencies": {
             "Acr.UserDialogs": {
               "target": "Package",
-              "version": "[7.1.0.442, )"
+              "version": "[7.1.0.454, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -124,6 +124,10 @@
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.0.0.3, )"
+            },
+            "Syncfusion.Xamarin.SfProgressBar": {
+              "target": "Package",
+              "version": "[18.2.0.55, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",
@@ -156,7 +160,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

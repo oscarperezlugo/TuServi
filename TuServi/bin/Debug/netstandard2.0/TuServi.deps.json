@@ -9,10 +9,11 @@
     ".NETStandard,Version=v2.0/": {
       "TuServi/1.0.0": {
         "dependencies": {
-          "Acr.UserDialogs": "7.1.0.442",
+          "Acr.UserDialogs": "7.1.0.454",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
           "Rg.Plugins.Popup": "2.0.0.3",
+          "Syncfusion.Xamarin.SfProgressBar": "18.2.0.55",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
@@ -23,11 +24,11 @@
           "TuServi.dll": {}
         }
       },
-      "Acr.UserDialogs/7.1.0.442": {
+      "Acr.UserDialogs/7.1.0.454": {
         "runtime": {
           "lib/netstandard2.0/Acr.UserDialogs.dll": {
-            "assemblyVersion": "7.1.0.442",
-            "fileVersion": "7.1.0.442"
+            "assemblyVersion": "7.1.0.454",
+            "fileVersion": "7.1.0.454"
           }
         }
       },
@@ -53,6 +54,38 @@
           "lib/netstandard2.0/Rg.Plugins.Popup.dll": {
             "assemblyVersion": "2.0.0.3",
             "fileVersion": "2.0.0.3"
+          }
+        }
+      },
+      "Syncfusion.Licensing/18.2.0.55": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.2.0.55",
+            "fileVersion": "18.2.0.55"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.2.0.55": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.55",
+          "Xamarin.Forms": "4.5.0.530"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "18.2451.0.55",
+            "fileVersion": "18.2451.0.55"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/18.2.0.55": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.2.0.55",
+          "Xamarin.Forms": "4.5.0.530"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfProgressBar.XForms.dll": {
+            "assemblyVersion": "18.2451.0.55",
+            "fileVersion": "18.2451.0.55"
           }
         }
       },
@@ -145,12 +178,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Acr.UserDialogs/7.1.0.442": {
+    "Acr.UserDialogs/7.1.0.454": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4z+sp3nTkFZuY75gd4zo2+86S8eaWlHl7KhLs/EAG9TH7Ng9+a4jfOap8v3fq1RXrF3gVae2ycLPcndZptxHZQ==",
-      "path": "acr.userdialogs/7.1.0.442",
-      "hashPath": "acr.userdialogs.7.1.0.442.nupkg.sha512"
+      "sha512": "sha512-A7NdvgpX1tE5tDj4gNQgrQOZ2xZF2PidNhuy5ydfM5rJdvN9CqjVxjoKEu3rDiMUs7ek/m+EiVkYVC5DVwfI0A==",
+      "path": "acr.userdialogs/7.1.0.454",
+      "hashPath": "acr.userdialogs.7.1.0.454.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -179,6 +212,27 @@
       "sha512": "sha512-/lrKxxsdaF9T+YEnVDaUMj0angdRyvpngSmX8veY/QYhSjT4x3guJTsL8O8D4egDf7MI5McnmMAsst0tkN1LOA==",
       "path": "rg.plugins.popup/2.0.0.3",
       "hashPath": "rg.plugins.popup.2.0.0.3.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/18.2.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uRj2TsBly9Mv35iPsOGiyHnz0z2+jd4WvK+vCdty4jF+G64CglHChdexWXaUkMd9wqkYJfp8BlLthqn4ogiMBg==",
+      "path": "syncfusion.licensing/18.2.0.55",
+      "hashPath": "syncfusion.licensing.18.2.0.55.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/18.2.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/lU79GxueAxpY9qt5zJ/morklmkuEzsNAz2YZF5jTAw8bmz8gw7wLEf2eB8//8S3EOPxRnprfy5jz20aXDQECg==",
+      "path": "syncfusion.xamarin.core/18.2.0.55",
+      "hashPath": "syncfusion.xamarin.core.18.2.0.55.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfProgressBar/18.2.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OfF4PXxhkPFeg7esUJzE++YVJBVw4gJSv3AVCbjEdvUHUWgW95ILsSSVzGlZw6IOZ7wnW7t2D8s0va0AolVsJg==",
+      "path": "syncfusion.xamarin.sfprogressbar/18.2.0.55",
+      "hashPath": "syncfusion.xamarin.sfprogressbar.18.2.0.55.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",

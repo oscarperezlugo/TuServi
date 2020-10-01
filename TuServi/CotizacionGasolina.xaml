@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.CotizacionGasolina">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+                 IconImageSource="shopping.png"
+                 Order="Primary"
+                 Priority="0"/>
+    </ContentPage.ToolbarItems>
+
+    <NavigationPage.TitleView>
+        <Label Text="Cotización" HorizontalTextAlignment="Center" FontSize="18"
+               Margin="30,0,0,0" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+    </NavigationPage.TitleView>
+
+    <StackLayout BackgroundColor="White">
+
+        <Grid RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <!--     Label cotizacion de gasolina      -->
+            <Label Grid.Row="1" TextColor="Black" TranslationX="25" Text="Cotización de gasolina" FontSize="18"/>
+
+            <!--     Estado     -->
+            <Frame Grid.Row="3" CornerRadius="10" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Picker x:Name="Estado" TextColor="#6e6e68" Margin="5"></Picker>
+            </Frame>
+            <!--     Ciudad     -->
+            <Frame Grid.Row="4" CornerRadius="10" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Picker x:Name="Ciudad" TextColor="#6e6e68" Margin="5"></Picker>
+            </Frame>
+            <!--     Direccion     -->
+            <Frame Grid.Row="5" CornerRadius="10" VerticalOptions="Center"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Entry x:Name="Direccion" StyleClass="Inputs" TextColor="#6e6e68" Margin="5"/>
+            </Frame>
+
+            <BoxView Grid.Row="6" HeightRequest="2" Color="Gray" Scale="0.85"/>
+
+            <!--     Comentarios     -->
+            <Frame Grid.Row="7" CornerRadius="10" VerticalOptions="Center"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Entry x:Name="Comentarios" StyleClass="Inputs" Placeholder="Comentarios..." TextColor="#6e6e68" Margin="3"/>
+            </Frame>
+
+            <!--     Boton Solicitar Cotizacion     -->
+            <Button Grid.Row="9" BackgroundColor="#f46414" Text="Solicitar Cotización" Scale="0.85" TextColor="White"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" 
+                    CornerRadius="10" Clicked="Solicitar_Clicked"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>

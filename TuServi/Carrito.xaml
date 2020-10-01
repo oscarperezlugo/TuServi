@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.Carrito">
+
+    <NavigationPage.TitleView>
+        <Label Text="Carrito" HorizontalTextAlignment="Center" FontSize="18"
+               TranslationX="-20" TextColor="Black"/>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <ListView x:Name="ListaProductos" Grid.Row="1" RowHeight="70" BackgroundColor="White" VerticalOptions="Fill" 
+                      SeparatorColor="Gray">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="80">
+                            <StackLayout>
+                                <Label Text="{Binding descripcion, StringFormat='{0}'}" FontAttributes="Bold"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding cantidad, StringFormat='Cantidad: {0}' }" HorizontalOptions="Start" FontSize="13"/>
+                                    <Label Text="{Binding precio, StringFormat='${0}' }" HorizontalOptions="Start" FontSize="12" FontAttributes="Bold" TranslationX="220"/>
+                                </StackLayout>
+                                <Label x:Name="labelClick" Text="Remover" TextColor="#f46414"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <Label Grid.Row="2" Text="{Binding totalCompra, StringFormat='Total:  ${0}'}" FontAttributes="Bold"/>
+
+            <Button Grid.Row="3" Text="Totalizar" BackgroundColor="#f46414" Scale="0.85" TextColor="White"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="10"
+                    Clicked="Totalizar_Clicked"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

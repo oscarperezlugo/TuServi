@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:TuServi"
+             mc:Ignorable="d"
+             x:Class="TuServi.VehiculoSeleccionado"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom" >
+
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem
+                 IconImageSource="shopping.png"
+                 Order="Primary"
+                 Priority="0"/>
+        <!--Clicked="Shoppingcar_Clicked"/-->
+    </TabbedPage.ToolbarItems>
+
+    <NavigationPage.TitleView>
+        <Label Text="Garage" HorizontalTextAlignment="Center" FontSize="18"
+               TranslationX="-20" TextColor="Black"/>
+    </NavigationPage.TitleView>
+
+    <NavigationPage Title="Resumen" IconImageSource="resume.png"> <!-- I did it like that for add toolbar in each page-->
+        <x:Arguments>
+            <local:Resumen ></local:Resumen>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Historial" IconImageSource="recordList.png">
+        <x:Arguments>
+            <local:Historial ></local:Historial>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Guantera" IconImageSource="drawer.png">
+        <x:Arguments>
+            <local:Guantera></local:Guantera>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Cotizaciones" IconImageSource="quotes.png">
+        <x:Arguments>
+            <local:Cotizaciones></local:Cotizaciones>
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>

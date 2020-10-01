@@ -1,21 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "ELxukraadqaiDY4BCeA/RYlg+4cqEeVJlw/GdMKzdlZ/fFr4h4x4T091e/py51+8LTDFK6sZVcm25x0TESV8wA==",
+  "dgSpecHash": "QwTnfiwVJtbEBfsUYHzxTzpcOKajH5rpGH0uKTtvmDmsUL7EhyRNwmtx1VnAdkIV4xoitzpukmxjU5olq3E7fg==",
   "success": true,
-  "projectFilePath": "E:\\Avila Technology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
+  "projectFilePath": "D:\\Job\\AvilaTechnology\\Servi\\TuServi\\TuServi\\TuServi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anyami\\.nuget\\packages\\acr.userdialogs\\7.1.0.442\\acr.userdialogs.7.1.0.442.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\rg.plugins.popup\\2.0.0.3\\rg.plugins.popup.2.0.0.3.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
-    "C:\\Users\\Anyami\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+    "C:\\Users\\Personal\\.nuget\\packages\\acr.userdialogs\\7.1.0.454\\acr.userdialogs.7.1.0.454.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\rg.plugins.popup\\2.0.0.3\\rg.plugins.popup.2.0.0.3.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\syncfusion.licensing\\18.2.0.55\\syncfusion.licensing.18.2.0.55.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\syncfusion.xamarin.core\\18.2.0.55\\syncfusion.xamarin.core.18.2.0.55.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\syncfusion.xamarin.sfprogressbar\\18.2.0.55\\syncfusion.xamarin.sfprogressbar.18.2.0.55.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
   ],
   "logs": []
 }

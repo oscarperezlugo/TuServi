@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.Cotizaciones"
+             Title="Cotizaciones" 
+             IconImageSource="quotes.png"
+             BackgroundColor="White">
+
+    <NavigationPage.TitleView>
+        <Label Text="Cotizaciones" HorizontalTextAlignment="Center" FontSize="18"
+               TranslationX="-20" TextColor="Black"/>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White">
+                <Grid BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+
+                    <Image x:Name="image" Grid.Row="0" BackgroundColor="White" Source="cotizacionVacia.png"
+                           HeightRequest="200" WidthRequest="200" Scale="2.5" VerticalOptions="Start" 
+                           TranslationY="80"/>
+                    
+                    <StackLayout Grid.Row="0" Orientation="Horizontal" BackgroundColor="White">
+                        <Label x:Name="Marca"/>
+                        <Label x:Name="Modelo"/>
+                        <Label x:Name="Año"/>
+                    </StackLayout>
+                    
+
+                    <!--Cotizacion de aceite-->
+                    <StackLayout Grid.Row="1" x:Name="Aceite" BackgroundColor="White" IsVisible="False">
+                        <BoxView HeightRequest="2" BackgroundColor="gray" Scale="1"/>
+                        <Label Text="Cotización de aceite" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+                        <BoxView HeightRequest="2" BackgroundColor="gray" Scale="1"/>
+                        
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                                    HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Marca" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Picker x:Name="MarcaAceite" Title="Seleccione una marca ..." 
+                                    TextColor="#6e6e68" Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="End">
+                                <Picker.Items>
+                                    <x:String>Venoco</x:String>
+                                    <x:String>Shell</x:String>
+                                    <x:String>Gulf</x:String>
+                                    <x:String>Pdv</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                                     HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Capacidad" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Picker x:Name="CapacidadAceite" Title="Seleccione una capacidad ..." 
+                                    TextColor="#6e6e68" Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="End">
+                                <Picker.Items>
+                                    <x:String>500ml</x:String>
+                                    <x:String>960ml</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                                    HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Cantidad" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Entry Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="Start" 
+                                   x:Name="Cantidad" StyleClass="Inputs" TextColor="#6e6e68" Placeholder="Ingrese la cantidad" TextChanged="CantidadChanged"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="2" BackgroundColor="gray" Scale="1"/>
+                    </StackLayout>
+
+                <!-- Cotizacion de filtro de aire -->
+                    <StackLayout Grid.Row="2" x:Name="Aire" IsVisible="False">
+                        <Label Text="Cotización de filtro de aire" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+                        <BoxView HeightRequest="2" BackgroundColor="gray" Scale="1"/>
+
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                                    HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Marca" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Picker x:Name="MarcaFiltroAire" Title="Seleccione una marca ..." 
+                                    TextColor="#6e6e68" Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="End">
+                                <Picker.Items>
+                                    <x:String>WIX</x:String>
+                                    <x:String>Filtro2</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                                    HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Cantidad" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Entry Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="Start" 
+                                   x:Name="CantidadAire" StyleClass="Inputs" TextColor="#6e6e68" Placeholder="Ingrese la cantidad" />
+                        </StackLayout>
+                        <BoxView HeightRequest="2" BackgroundColor="gray" Scale="1"/>
+                    </StackLayout>
+                    <!-- Cotizacion de filtro de gasolina-->
+                    <StackLayout  Grid.Row="3" x:Name="Gasolina" IsVisible="False">
+                        <Label Text="Cotización de filtro de gasolina" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+                        <BoxView HeightRequest="2" BackgroundColor="gray" Scale="1"/>
+
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                         HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Marca" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Picker x:Name="MarcaFiltroGasolina" Title="Seleccione una marca ..." 
+                            TextColor="#6e6e68" Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="End">
+                                <Picker.Items>
+                                    <x:String>WIX</x:String>
+                                    <x:String>WEB</x:String>
+                                    <x:String>ACdelco</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                                    HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Cantidad" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Entry Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="Start" 
+                                   x:Name="CantidadGasolina" StyleClass="Inputs" TextColor="#6e6e68" Placeholder="Ingrese la cantidad" />
+                        </StackLayout>
+                        <BoxView HeightRequest="2" Scale="1"/>
+                    </StackLayout>
+                <!-- Cotizacion de rotacion de cauchos -->
+                    <StackLayout Grid.Row="4" x:Name="Cauchos" IsVisible="False">
+                        <Label Text="Cotización de rotación de cauchos" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+                        <BoxView HeightRequest="2" Scale="1"/>
+
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                         HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Marca" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Picker x:Name="MarcaCauchos" Title="Seleccione una marca ..." 
+                            TextColor="#6e6e68" Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="End">
+                                <Picker.Items>
+                                    <x:String>Michelin</x:String>
+                                    <x:String>Goodyear</x:String>
+                                    <x:String>Firestone</x:String>
+                                    <x:String>Bridgestone</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" 
+                                    HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Cantidad" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Entry Margin="0,0,10,0" HorizontalOptions="FillAndExpand" VerticalOptions="Start" 
+                                   x:Name="CantidadCauchos" StyleClass="Inputs" TextColor="#6e6e68" Placeholder="Ingrese la cantidad" />
+                        </StackLayout>
+                    </StackLayout>
+                    
+                    <BoxView HeightRequest="2" Scale="1"/>
+
+                    <StackLayout Grid.Row="5" x:Name="TotalC" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Label Margin="10,0,0,0" WidthRequest="120" TextColor="Black" Text="Total" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Label Margin="10,0,0,0" WidthRequest="180" Text="(Incluye IVA)" FontSize="18" VerticalOptions="CenterAndExpand"/>
+                            <Label x:Name="TotalCotizacion" Margin="10,0,0,0" WidthRequest="120" TextColor="Black" FontSize="18" VerticalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Grid.Row="6" x:Name="Botones" Orientation="Horizontal" TranslationY="10">
+                        <Button BackgroundColor="#f46414" Text="Agregar al carro" Scale="0.8" TextColor="White"
+                                HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"
+                                CornerRadius="10" TranslationY="10" Clicked="Agregar_Clicked"/>
+
+                        <Button BackgroundColor="#f46414" Text="Rechazar"  Scale="0.8" TextColor="White"
+                                HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" 
+                                CornerRadius="10" Clicked="Rechazar_Clicked" TranslationY="10"/>
+                    </StackLayout>
+                    <BoxView HeightRequest="2" Scale="1"/>
+
+                    <!-- Boton agregar todos al carro para cuando haya varias cotizaciones-->
+                    <!--Button Grid.Row="5" x:Name="ButtonAgregarTodas" Text="Agregar todas al carro" BackgroundColor="#f46414" 
+                        TextColor="White"  HorizontalOptions="FillAndExpand" ScaleX="0.8" ScaleY="0.8" 
+                        VerticalOptions="CenterAndExpand" CornerRadius="10" IsVisible="False"/-->
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

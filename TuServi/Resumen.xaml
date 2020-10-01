@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.Resumen">
+
+
+    <NavigationPage.TitleView>
+        <Label Text="Garage" HorizontalTextAlignment="Center" FontSize="18"
+               TranslationX="-20" TextColor="Black"/>
+    </NavigationPage.TitleView>
+
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="500"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,0,0,0">
+                    <Label x:Name="Marca" TextColor="Black" FontSize="22"/>
+                    <Label x:Name="Modelo" TextColor="Black" FontSize="22"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,0,0,0">
+                    <Label Text="Km Actual: " TextColor="Black" FontSize="20"/>
+                    <Label x:Name="Km_ultimo" FontSize="20"/>
+                </StackLayout>
+
+                <ListView Grid.Row="3" x:Name="Lista" ItemSelected="ListServ_ItemSelected" RowHeight="50">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Margin="20,0,0,0">
+                                    <Image Source="{Binding icon}"/>
+                                    <StackLayout>
+                                        <Label Text="{Binding Servicio}" FontSize="16" TranslationY="12"/>
+                                        <ProgressBar Progress="{Binding progress}" ProgressColor="#f46414" WidthRequest="200"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -185,3 +185,171 @@ E:\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageL
 E:\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.pdb
 E:\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.dll
 E:\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\optimized\
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.csprojAssemblyReference.cache
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.csproj.CoreCompileInputs.cache
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.exe
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\TuServi.iOS.exe
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\TuServi.iOS.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Acr.UserDialogs.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Acr.UserDialogs.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\BTProgressHUD.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\BTProgressHUD.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\WebP.Touch.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.Platform.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.Platform.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\pt-br\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\TuServi.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\TuServi.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.csproj.CopyComplete
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Licensing.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Core.XForms.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Core.XForms.iOS.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfProgressBar.XForms.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfProgressBar.XForms.iOS.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\TuServi.iOS.exe
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\TuServi.iOS.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Acr.UserDialogs.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Acr.UserDialogs.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\BTProgressHUD.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\BTProgressHUD.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Licensing.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Core.XForms.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Core.XForms.iOS.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfProgressBar.XForms.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfProgressBar.XForms.iOS.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\WebP.Touch.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.Platform.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.Platform.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\pt-br\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\TuServi.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\TuServi.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\optimized\
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.csprojAssemblyReference.cache
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.csproj.CoreCompileInputs.cache
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.csproj.CopyComplete
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.exe
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi.iOS\obj\iPhoneSimulator\Debug\TuServi.iOS.pdb

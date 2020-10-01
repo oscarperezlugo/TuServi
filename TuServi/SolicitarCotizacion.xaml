@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuServi.SolicitarCotizacion">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+                 IconImageSource="shopping.png"
+                 Order="Primary"
+                 Priority="0"/>
+    </ContentPage.ToolbarItems>
+
+    <NavigationPage.TitleView>
+        <Label Text="Cotización" HorizontalTextAlignment="Center" FontSize="18"
+               Margin="30,0,0,0" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+    </NavigationPage.TitleView>
+
+    <StackLayout BackgroundColor="White">
+
+        <Grid RowSpacing="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            
+            
+            <!--     Label Aceite      -->
+            <Label Grid.Row="1" TextColor="Black" TranslationX="25" Text="Cotización de aceite" FontSize="18"/>
+
+            <!--     Tipo de Aceite      -->
+            <Frame Grid.Row="3" CornerRadius="10" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Picker x:Name="Aceite"
+                            TextColor="#6e6e68" Margin="5">
+                    <Picker.Items>
+                        <x:String>Aceite de motor sintético</x:String>
+                        <x:String>Aceite de motor semi-sintético</x:String>
+                        <x:String>Aceite de motor de alto kilometraje</x:String>
+                        <x:String>Aceite de motor convencional</x:String>
+                    </Picker.Items>
+                </Picker>
+            </Frame>
+            <!--        Grado SAE ##W##      -->
+            <Frame Grid.Row="4" CornerRadius="10" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Picker x:Name="SAE" 
+                            TextColor="#6e6e68" Margin="5">
+                    <Picker.Items>
+                        <x:String>20w50</x:String>
+                        <x:String>15w40</x:String>
+                        <x:String>10w30</x:String>
+                        <x:String>15w50</x:String>
+                        <x:String>5w20</x:String>
+                        <x:String>10w40</x:String>
+                        <x:String>5w30</x:String>
+                        <x:String>10w50</x:String>
+                        <x:String>5w40</x:String>
+                        <x:String>0w20</x:String>
+                        <x:String>75w140</x:String>
+                        <x:String>75w90</x:String>
+                    </Picker.Items>
+                </Picker>
+            </Frame>
+            <!--     HR     -->
+            <BoxView Grid.Row="6" HeightRequest="2" Color="Gray" Scale="0.85"/>
+            <!--     Estado     -->
+            <Frame Grid.Row="8" CornerRadius="10" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Picker x:Name="Estado" TextColor="#6e6e68" Margin="5">
+                </Picker>
+            </Frame>
+            <!--     Ciudad     -->
+            <Frame Grid.Row="9" CornerRadius="10" Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+
+                <Picker x:Name="Ciudad" TextColor="#6e6e68" Margin="5">
+                </Picker>
+            </Frame>
+            <!--     Direccion     -->
+            <Frame Grid.Row="10" CornerRadius="10" VerticalOptions="Center"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Entry x:Name="Direccion" StyleClass="Inputs" TextColor="#6e6e68" Margin="5"/>
+            </Frame>
+            <!--     HR     -->
+            <BoxView Grid.Row="12" HeightRequest="2" Color="Gray" Scale="0.85"/>
+            <!--     Comentarios     -->
+            <Frame Grid.Row="14" CornerRadius="10" VerticalOptions="Center"
+                    Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
+                <Entry x:Name="Comentarios" StyleClass="Inputs" Placeholder="Comentarios..." TextColor="#6e6e68" Margin="5"/>
+            </Frame>
+            <!--     Boton Solicitar Cotizacion     -->
+            <Button Grid.Row="16" BackgroundColor="#f46414" Text="Solicitar Cotización" Scale="0.85" TextColor="White"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"
+                    CornerRadius="10"  Clicked="Solicitar_Clicked"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>

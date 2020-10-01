@@ -1,68 +1,86 @@
-@string/appbar_scrolling_view_behavior;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\flyoutcontent.xml
-@string/appbar_scrolling_view_behavior;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-alpha;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\enterfromleft.xml
-alpha;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\exittoleft.xml
-android.support.design.widget.AppBarLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.AppBarLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\rootlayout.xml
-android.support.design.widget.AppBarLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\shellcontent.xml
-android.support.design.widget.BottomNavigationView;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\bottomtablayout.xml
-android.support.design.widget.CoordinatorLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.CoordinatorLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\rootlayout.xml
-android.support.design.widget.CoordinatorLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\shellcontent.xml
-android.support.design.widget.TabLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\rootlayout.xml
+alpha;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\enterfromleft.xml
+alpha;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\shellcontent.xml
+android.support.design.widget.TabLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\rootlayout.xml
 android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
-android.support.v7.widget.RecyclerView;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\flyoutcontent.xml
-android.support.v7.widget.Toolbar;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\rootlayout.xml
-android.support.v7.widget.Toolbar;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\shellcontent.xml
+android.support.v7.widget.RecyclerView;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
-androidhud.ProgressWheel;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
-attr;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\attrs.xml
+androidhud.ProgressWheel;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
+attr;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\attrs.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-cache-path;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\47\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\49\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
-corners;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
-corners;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
-declare-styleable;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\attrs.xml
-external-cache-path;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\47\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+corners;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
+corners;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
+declare-styleable;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\attrs.xml
+external-cache-path;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\49\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-files-path;obj\Debug\90\res\xml\file_paths.xml
-external-path;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\47\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\49\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-FrameLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\bottomtablayout.xml
-gradient;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
-gradient;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
-ImageView;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
-item;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\values\styles.xml
+FrameLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\bottomtablayout.xml
+gradient;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
+gradient;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
+ImageView;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
+item;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_determinate_linear.xml
+item;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+item;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+item;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\values\styles.xml
 item;obj\Debug\90\res\values\styles.xml
-LinearLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\bottomtablayout.xml
-paths;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\47\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+layer-list;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_determinate_linear.xml
+layer-list;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+layer-list;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+LinearLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\bottomtablayout.xml
+paths;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\49\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 paths;obj\Debug\90\res\xml\file_paths.xml
-ProgressBar;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loading.xml
-RelativeLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loading.xml
-RelativeLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
-RelativeLayout;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
-resources;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\attrs.xml
-resources;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\strings.xml
-resources;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\values\styles.xml
+ProgressBar;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loading.xml
+RelativeLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loading.xml
+RelativeLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
+RelativeLayout;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
+resources;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\attrs.xml
+resources;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\strings.xml
+resources;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\values\strings.xml
+resources;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
-set;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\enterfromleft.xml
-set;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\enterfromright.xml
-set;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\exittoleft.xml
-set;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\exittoright.xml
-shape;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
-shape;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
-string;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\strings.xml
-style;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\values\styles.xml
+rotate;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+scale;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_determinate_linear.xml
+set;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\enterfromleft.xml
+set;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\enterfromright.xml
+set;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\exittoleft.xml
+set;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\exittoright.xml
+shape;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
+shape;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
+shape;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_determinate_linear.xml
+shape;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+shape;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+size;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_determinate_linear.xml
+size;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+solid;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_determinate_linear.xml
+solid;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+solid;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+string;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\values\strings.xml
+string;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\11\jl\res\values\strings.xml
+style;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
-TextView;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loading.xml
-TextView;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
-TextView;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
-translate;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\enterfromleft.xml
-translate;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\enterfromright.xml
-translate;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\exittoleft.xml
-translate;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\anim\exittoright.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;E:\Avila Technology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\48\jl\res\layout\rootlayout.xml
+TextView;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loading.xml
+TextView;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
+TextView;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
+translate;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\enterfromleft.xml
+translate;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\enterfromright.xml
+translate;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\exittoleft.xml
+translate;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Job\AvilaTechnology\Servi\TuServi\TuServi.Android\obj\Debug\90\lp\50\jl\res\layout\rootlayout.xml

@@ -198,4 +198,34 @@
   <ItemGroup>
     <BundleResource Include="Resources\addcar.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\resume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\quotes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\recordList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fuel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\oil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cotizacionVacia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\historialvacio.png" />
+  </ItemGroup>
 </Project>

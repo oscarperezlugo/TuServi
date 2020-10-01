@@ -1,46 +1,71 @@
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csprojAssemblyReference.cache
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfoInputs.cache
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfo.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.dll
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\ref\TuServi.dll
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.pdb
-C:\Users\oscar\source\repos\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.deps.json
-C:\Users\oscar\source\repos\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.dll
-C:\Users\oscar\source\repos\TuServi\TuServi\bin\Debug\netstandard2.0\ref\TuServi.dll
-C:\Users\oscar\source\repos\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.pdb
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\Registro.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\Foto.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\PaginaSeleccion.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\LoginEmpresa.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\RegistroEmpresa.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\AgregarVehiculos.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\Garage.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\Perfil.xaml.g.cs
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csproj.CoreCompileInputs.cache
-C:\Users\oscar\source\repos\TuServi\TuServi\obj\Debug\netstandard2.0\XamlC.stamp
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.dll
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\ref\TuServi.dll
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.pdb
-E:\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.deps.json
-E:\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.dll
-E:\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\ref\TuServi.dll
-E:\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.pdb
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\AgregarVehiculos.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\App.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Foto.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Garage.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\LoginEmpresa.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\PaginaSeleccion.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Perfil.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Registro.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\RegistroEmpresa.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfoInputs.cache
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfo.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Menu.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csproj.CoreCompileInputs.cache
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\XamlC.stamp
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\NivPopup.xaml.g.cs
-E:\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csprojAssemblyReference.cache
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\AgregarVehiculos.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Foto.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Garage.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\LoginEmpresa.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\NivPopup.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\PaginaSeleccion.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Perfil.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Registro.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\RegistroEmpresa.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csproj.CoreCompileInputs.cache
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfoInputs.cache
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfo.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.deps.json
+E:\Job\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\ref\TuServi.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\VehiculoSeleccionado.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\ref\TuServi.dll
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.pdb
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Resumen.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Cotizaciones.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Guantera.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Historial.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\ServicioSeleccionado.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\SolicitarCotizacion.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\CotizacionAire.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\CotizacionCauchos.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\CotizacionGasolina.xaml.g.cs
+E:\Job\Avila Technology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csprojAssemblyReference.cache
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\AgregarVehiculos.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Carrito.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\CotizacionAire.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\CotizacionCauchos.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Cotizaciones.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\CotizacionGasolina.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Foto.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Garage.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Guantera.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Historial.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\LoginEmpresa.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\NivPopup.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\PaginaSeleccion.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Perfil.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Registro.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\RegistroEmpresa.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Resumen.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\ServicioSeleccionado.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\SolicitarCotizacion.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\VehiculoSeleccionado.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfoInputs.cache
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.AssemblyInfo.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csproj.CoreCompileInputs.cache
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\ref\TuServi.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.deps.json
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\ref\TuServi.dll
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\bin\Debug\netstandard2.0\TuServi.pdb
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\Totalizar.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\MediosdePago.xaml.g.cs
+D:\Job\AvilaTechnology\Servi\TuServi\TuServi\obj\Debug\netstandard2.0\TuServi.csprojAssemblyReference.cache
