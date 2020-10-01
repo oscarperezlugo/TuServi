@@ -59,6 +59,7 @@ namespace TuServi.Datos
         public int id_servicio { get; set; }
         public string descripcion { get; set; }
         public Nullable<int> tiempo { get; set; }
+        public string status { get; set; }
         public int id_usuario { get; set; }
         public Nullable<System.Guid> guid { get; set; }
 
@@ -85,5 +86,25 @@ namespace TuServi.Datos
         public Nullable<System.Guid> guid { get; set; }
 
         
+    }
+
+    public class LineasFacturas
+    {
+        public string venta { get; set; }
+        public int Row { get; set; }
+        public string producto { get; set; }
+        public float precio { get; set; }
+        public string cantidad { get; set; }
+    }
+
+    public class CabeceraFacturas
+    {
+        public string venta { get; set; }
+        public int Row { get; set; }
+        public string producto { get; set; }
+        public float total { get; set; }
+        public Nullable<System.DateTime> fecha { get; set; }
+        public string cliente { get; set; }
+        public string direccion { get; set; }
     }
 }
