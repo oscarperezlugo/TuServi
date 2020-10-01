@@ -69,7 +69,7 @@
                     </Frame>
 
                <!--        Grado SAE ##W##      -->
-                   <!-- <Frame CornerRadius="10" Grid.Row="6" VerticalOptions="Center"
+                    <Frame CornerRadius="10" Grid.Row="6" VerticalOptions="Center"
                     Scale="0.85" Padding="0" StyleClass="Entry" BackgroundColor="#e6e8eb">
                         <Picker x:Name="SAE" Title="Seleccione el grado SAE (Ej.:20W50) ..." 
                             TextColor="#6e6e68" Margin="5">
@@ -88,9 +88,9 @@
                                 <x:String>75w90</x:String>
                             </Picker.Items>
                         </Picker>
-                    </Frame>-->
-                    
-                <!--Kilometraje ultimo servicio -->
+                    </Frame>
+
+                    <!--Kilometraje ultimo servicio -->
                     <Frame CornerRadius="10" Grid.Row="7" VerticalOptions="Center"
                         Scale="0.85" Padding="0" BackgroundColor="#e6e8eb">
                         <Entry x:Name="KilometrajeUlt" Placeholder="Ingrese el kilometraje del último servicio" TextColor="#6e6e68" Margin="5"/>
