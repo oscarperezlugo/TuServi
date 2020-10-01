@@ -38,23 +38,27 @@ namespace TuServi
                 vehiculo.km_ultimo_servicio = Int32.Parse(KilometrajeUlt.Text);
                 vehiculo.marca = Marca.SelectedItem.ToString();
                 vehiculo.modelo = Modelo.SelectedItem.ToString();
-                vehiculo.tipo_aceite = Aceite.SelectedItem.ToString();
-                // vehiculo.niv = Int32.Parse(NIV.Text);
-                // vehiculo.sae = SAE.SelectedItem.ToString();
+                vehiculo.tipo_aceite = Aceite.SelectedItem.ToString() + "*" + SAE.SelectedItem.ToString(); ;
+                // Int32.Parse(NIV.Text);
                 // vehiculo.km_actual = Int32.Parse(Kilometraje.Text);
                 try
                 {
 
                     Repositorio repositorio = new Repositorio();
                     Datos.Vehiculo vehiculor = repositorio.postVehiculo(vehiculo).Result;
-                    Dialogs.ShowLoading("Tu " + Modelo.SelectedItem.ToString() + " ya fue agregado a tu garage");
-                    await Task.Delay(2000);
-                    Dialogs.HideLoading();
                     try
                     {
-                        Garage myHomePage = new Garage();
+
+                        Dialogs.ShowLoading("Tu " + Modelo.SelectedItem.ToString() + " ya fue agregado a tu garage");
+                        await Task.Delay(2000);
+
+                        var username = SecureStorage.GetAsync("username".ToString());
+                        var lastname = SecureStorage.GetAsync("userlastname").ToString();
+                        Menu myHomePage = new Menu(username + " " + lastname);
                         NavigationPage.SetHasNavigationBar(myHomePage, false);
                         await Navigation.PushModalAsync(myHomePage);
+
+                        Dialogs.HideLoading();
                     }
                     catch (Exception ex)
                     {

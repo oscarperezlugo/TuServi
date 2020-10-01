@@ -54,7 +54,12 @@ namespace TuServi
                     try
                     {                        
                         await SecureStorage.SetAsync("id", userlogin.iDu.ToString());
-                        await SecureStorage.SetAsync("guid", userlogin.iD.ToString());                        
+                        await SecureStorage.SetAsync("guid", userlogin.iD.ToString());
+                        await SecureStorage.SetAsync("username", user.nombre);
+                        await SecureStorage.SetAsync("userlastname", user.apellido);
+                        //await SecureStorage.SetAsync("estado", user.estado);
+                        //await SecureStorage.SetAsync("ciudad", user.ciudad);
+                        //await SecureStorage.SetAsync("direccion", user.direccion);
                         Menu myHomePage = new Menu(user.nombre + " " + user.apellido);
                         NavigationPage.SetHasNavigationBar(myHomePage, false);
                         await Navigation.PushModalAsync(myHomePage);

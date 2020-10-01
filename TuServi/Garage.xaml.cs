@@ -33,7 +33,6 @@ namespace TuServi
                 Vehiculo = listavehiculo;
                 image.IsVisible = false;
             }
-            Navigation.PopAsync(true);
         }
         private async void Agregar_Clicked(object sender, EventArgs e)
         {
@@ -52,6 +51,8 @@ namespace TuServi
             Application.Current.Properties["marca"] = selected.marca;
             Application.Current.Properties["modelo"] = selected.modelo;
             Application.Current.Properties["km_ultimo_servicio"] = selected.km_ultimo_servicio.ToString();
+            Application.Current.Properties["tipo_aceite"] = selected.tipo_aceite;
+            Application.Current.Properties["anho"] = selected.anho;
             Application.Current.SavePropertiesAsync();
 
             Navigation.PushModalAsync(new VehiculoSeleccionado());
